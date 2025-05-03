@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+.font-sec {
+  font-family: Reem Kufi, sans-serif;
+}
+
+.font-pr {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: calc(1430px + 32px);
+  width: 100%;
+  padding: 0 16px;
+  margin-inline: auto;
+
+  position: relative;
+}
+
+li {
+  appearance: none;
+  list-style: none;
+}
+
+.bg-100 {
+  background-size: 100% 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.home-gradient::after {
+  background-image: radial-gradient(rgba(4,0,37,.1) 0%, rgba(4,0,37.75) 100%);
+}
+
+img {
+  object-fit: cover;
+}
+
+p {
+  font-size: clamp(14px, 1.125vw, 18px);
+  letter-spacing: .03rem;
+  line-height:  166%;
+}
+
+.guide-gradient::after {
+  background-image: linear-gradient(to top, rgba(21,32,69,0) 0%, #152045 100%);
+}
+
+.form-clipped::after {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);;
+}
+
+.bg-pseudo-100 { 
+  &::after,
+  &::before {
+    background-size: 100% 100%;
+  }
+}
