@@ -58,3 +58,20 @@ p {
     background-size: 100% 100%;
   }
 }
+
+.shop-item-gradient:after {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(21, 32, 69, 0) 0%,
+    rgba(21, 32, 69, .8) 23%,
+    #152045 100%
+  );
+}
+
+.custom-input {
+  cursor: pointer;
+}
+
+.custom-input input:checked ~ span {
+  opacity: 1;
+}

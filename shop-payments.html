@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>War Crown Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi:regular,500,600,700" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/shop/shop_bg.png')] bg-[100%_auto] bg-top-left bg-no-repeat relative bg-blend-luminosity">
+  <header class="absolute top-0 left-0 w-full z-10 bg-[#152045]">
+    <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
+<img src="assets/logo.svg" />
+      <nav class="flex items-center gap-10 font-sec">
+        <li>
+          <a href="#" class="text-xl">
+            How to begin?
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            News
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Forum
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Shop
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Logs
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            FAQ
+          </a>
+        </li>
+      </nav>
+      <div class="flex items-center gap-10 font-sec text-xl">
+        <div class="flex items-center gap-2 [&>span]:leading-[100%]">
+          <span>Region:</span>
+          <div class="flex items-center gap-1">
+            <span class="font-semibold">USA</span>
+            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.62695 5L0.0288777 0.5L5.22503 0.5L2.62695 5Z" fill="#E9E9E9"/>
+              </svg>
+          </div>
+        </div>
+        <div class="w-9 h-6">
+          <img src="assets/usa_flag.svg" alt="flag">
+        </div>
+      </div>
+      <button class="text-sm font-medium text-[#152045] pt-2 min-w-[64px] flex flex-col gap-1 bg-100 items-center text-center">
+        <img 
+          src="assets/log-out_bg.png" 
+          class="h-[88px] absolute top-0 z-[-1]" 
+          alt="bg"
+        >
+        <img class="w-8 h-8" src="assets/orc-icon.svg" alt="icon">
+        <span>log out</span>
+      </button>
+    </div>
+  </header>
+  <main class="flex-1">
+    <section class="pt-[100px] pb-20">
+      <div class="container">
+        <div class="pl-10 mb-6.5 font-bold">
+          <h1 class="font-sec xl:text-3xl">Shop</h1>
+        </div>
+        <div class="grid grid-cols-[260px_1fr] gap-5 items-start">
+          <div>
+            <div class="min-h-[54px] flex items-center justify-center text-center gap-2 bg-[#B6D64F] text-[#152045]">
+              <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 10.5C23 4.97335 18.3917 0.5 12.6964 0.5H10.3036C4.60912 0.5 0 4.97248 0 10.5C0 11.6369 0.19577 12.7536 0.581963 13.819C0.64373 13.9893 0.835996 14.0788 1.0116 14.0189C1.18711 13.959 1.27933 13.7724 1.21761 13.602C0.856795 12.6064 0.673828 11.5628 0.673828 10.5C0.673828 5.33474 4.98071 1.15397 10.3036 1.15397C15.6257 1.15397 19.9333 5.334 19.9333 10.5C19.9333 15.6653 15.6264 19.846 10.3036 19.846C6.63734 19.846 3.36123 17.8428 1.73187 14.7633C1.64684 14.6026 1.44361 14.5392 1.27825 14.6217C1.11271 14.7043 1.04744 14.9013 1.13244 15.062C2.87837 18.3618 6.38704 20.5 10.3036 20.5H12.6964C18.4038 20.5 23 16.0054 23 10.5ZM19.1593 17.4278H17.7334C18.2713 16.885 18.7388 16.2935 19.1316 15.6635H20.7241C20.299 16.285 19.7798 16.8823 19.1593 17.4278ZM19.5056 15.0095C19.7999 14.4451 20.0373 13.8548 20.2155 13.2453H21.906C21.713 13.8579 21.4547 14.4485 21.1353 15.0095H19.5056ZM22.0842 12.5913H20.382C20.5076 12.0158 20.5814 11.4259 20.6011 10.827H22.3197C22.2989 11.4211 22.2206 12.0118 22.0842 12.5913ZM22.3197 10.173H20.6011C20.5814 9.57402 20.5076 8.98422 20.3821 8.40872H22.0853C22.2198 8.98291 22.2986 9.57306 22.3197 10.173ZM21.9041 7.75475H20.2155C20.0373 7.14529 19.8 6.55488 19.5056 5.99046H21.1328C21.4523 6.55222 21.7108 7.14355 21.9041 7.75475ZM20.7264 5.33648H19.1316C18.7388 4.70649 18.2713 4.11499 17.7334 3.57219H19.1605C19.7515 4.09284 20.2789 4.68391 20.7264 5.33648ZM18.3298 2.91826H17.023C16.2058 2.2339 15.2947 1.68613 14.3198 1.28577C15.771 1.52351 17.137 2.0797 18.3298 2.91826ZM17.023 18.0817H18.3298C17.137 18.9203 15.771 19.4764 14.3199 19.7142C15.2947 19.3139 16.2057 18.7661 17.023 18.0817Z" fill="#152045"></path>
+                <path d="M15.8074 5.35118C15.936 5.48158 16.1494 5.48603 16.2837 5.36108C16.4181 5.23617 16.4227 5.02916 16.2939 4.89876C14.7009 3.28515 12.5559 2.39648 10.2544 2.39648C5.64254 2.39648 1.89062 6.03794 1.89062 10.5138C1.89062 14.9897 5.64254 18.6311 10.2544 18.6311C14.8662 18.6311 18.6181 14.9897 18.6181 10.5138C18.6181 8.88242 18.1213 7.30896 17.1813 5.96369C17.0769 5.81424 16.8674 5.77513 16.7134 5.87658C16.5594 5.97791 16.5192 6.18125 16.6237 6.3307C17.4876 7.56728 17.9443 9.01378 17.9443 10.5138C17.9443 14.6291 14.4946 17.9771 10.2543 17.9771C6.01409 17.9771 2.56441 14.6291 2.56441 10.5138C2.56441 6.3985 6.01409 3.05046 10.2543 3.05046C12.3705 3.05046 14.3426 3.86758 15.8074 5.35118Z" fill="#152045"></path>
+                <path d="M11.9379 6.11352C11.9264 6.10818 11.9133 6.1063 11.9006 6.10813C11.8878 6.10997 11.876 6.11545 11.8668 6.12378L11.1195 6.80135L10.2936 5.48098C10.2876 5.47298 10.2795 5.46645 10.2702 5.46194C10.2608 5.45743 10.2504 5.45508 10.2398 5.45508C10.2292 5.45508 10.2188 5.45743 10.2094 5.46194C10.2001 5.46645 10.192 5.47298 10.186 5.48098L9.36009 6.80135L8.61279 6.12378C8.60358 6.11517 8.59165 6.10948 8.57871 6.10752C8.56576 6.10557 8.55248 6.10745 8.54077 6.11291C8.52907 6.11836 8.51955 6.1271 8.51359 6.13787C8.50763 6.14863 8.50554 6.16086 8.50762 6.17279L8.75507 7.70002C8.75731 7.71361 8.7648 7.726 8.77617 7.7349C8.78754 7.7438 8.80202 7.74862 8.81693 7.74846H11.6626C11.6776 7.74862 11.692 7.7438 11.7034 7.7349C11.7148 7.726 11.7223 7.71361 11.7245 7.70002L11.972 6.17279C11.9738 6.16087 11.9715 6.14871 11.9654 6.13806C11.9593 6.12741 11.9497 6.11882 11.9379 6.11352Z" fill="#152045"></path>
+                <path d="M15.1236 7.74805L12.2359 15.3927L10.4523 10.9887L8.32905 15.3927L5.35645 7.74805H7.05508L8.58384 11.9858L9.68795 9.24373H11.2167L12.2359 11.8196L13.5099 7.74805H15.1236Z" fill="#152045"></path>
+                </svg>                
+              0 WarCoins
+            </div>
+            <ul class="bg-[#273257] flex flex-col px-[clamp(24px,2.5vw,40px)] pb-4.5 mb-6">
+              <li class="flex items-center min-h-[56px] gap-1 text-sm xl:text-base font-sec border-b border-solid border-[#E9E9E9]/30">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1090_42208)">
+                  <path d="M12.9231 14.1534H3.07692C1.37842 14.1514 0.00203846 12.775 0 11.0765V4.92263C0.00203846 3.22413 1.37842 1.84774 3.07692 1.8457H12.9231C14.6216 1.84774 15.998 3.22413 16 4.92263V11.0765C15.998 12.775 14.6216 14.1514 12.9231 14.1534ZM3.07692 3.07647C2.05731 3.07647 1.23077 3.90301 1.23077 4.92263V11.0765C1.23077 12.0961 2.05731 12.9226 3.07692 12.9226H12.9231C13.9427 12.9226 14.7692 12.0961 14.7692 11.0765V4.92263C14.7692 3.90301 13.9427 3.07647 12.9231 3.07647H3.07692Z" fill="#E9E9E9"></path>
+                  <path d="M4.92345 11.6923H3.69268C3.01295 11.6923 2.46191 11.1413 2.46191 10.4615V9.23077C2.46191 8.55104 3.01295 8 3.69268 8H4.92345C5.60318 8 6.15422 8.55104 6.15422 9.23077V10.4615C6.15422 11.1413 5.60318 11.6923 4.92345 11.6923ZM3.69268 9.23077V10.4615H4.92345V9.23077H3.69268Z" fill="#E9E9E9"></path>
+                  <path d="M15.3846 6.76788H0.615385C0.2755 6.76788 0 6.49238 0 6.15249C0 5.81261 0.2755 5.53711 0.615385 5.53711H15.3846C15.7245 5.53711 16 5.81261 16 6.15249C16 6.49238 15.7245 6.76788 15.3846 6.76788Z" fill="#E9E9E9"></path>
+                  <path d="M9.23092 11.6917H8.00015C7.66027 11.6917 7.38477 11.4162 7.38477 11.0763C7.38477 10.7364 7.66027 10.4609 8.00015 10.4609H9.23092C9.5708 10.4609 9.8463 10.7364 9.8463 11.0763C9.8463 11.4162 9.5708 11.6917 9.23092 11.6917Z" fill="#E9E9E9"></path>
+                  <path d="M12.9233 11.6917H11.6925C11.3526 11.6917 11.0771 11.4162 11.0771 11.0763C11.0771 10.7364 11.3526 10.4609 11.6925 10.4609H12.9233C13.2632 10.4609 13.5387 10.7364 13.5387 11.0763C13.5387 11.4162 13.2632 11.6917 12.9233 11.6917Z" fill="#E9E9E9"></path>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1090_42208">
+                  <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                Payment history
+              </li>
+              <li class="flex items-center min-h-[56px] gap-1 text-sm xl:text-base font-sec border-b border-solid border-[#E9E9E9]/30">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 0C5.87899 0.00236967 3.84554 0.848168 2.34576 2.35183C0.845977 3.85549 0.00236355 5.89422 0 8.02072C0.439291 18.6613 15.5623 18.6582 16 8.02066C15.9976 5.89417 15.154 3.85546 13.6542 2.35181C12.1544 0.848162 10.121 0.00237193 8 0ZM8.64865 14.7078V14.0905C8.64865 13.918 8.58031 13.7526 8.45866 13.6306C8.33702 13.5086 8.17203 13.4401 8 13.4401C7.82797 13.4401 7.66298 13.5086 7.54134 13.6306C7.41969 13.7526 7.35135 13.918 7.35135 14.0905V14.7078C5.80619 14.5551 4.36163 13.87 3.26374 12.7692C2.16585 11.6685 1.48252 10.2202 1.33016 8.67105H1.94595C2.11639 8.66863 2.27903 8.59904 2.39871 8.47734C2.51839 8.35564 2.58548 8.19161 2.58547 8.02071C2.58547 7.8498 2.51837 7.68577 2.39869 7.56407C2.27901 7.44238 2.11636 7.3728 1.94592 7.37039H1.33016C1.48252 5.82123 2.16585 4.37293 3.26374 3.27219C4.36163 2.17146 5.80619 1.48636 7.35135 1.33361V1.95099C7.35135 2.12346 7.41969 2.28888 7.54134 2.41084C7.66298 2.5328 7.82797 2.60131 8 2.60131C8.17203 2.60131 8.33702 2.5328 8.45866 2.41084C8.58031 2.28888 8.64865 2.12346 8.64865 1.95099V1.33361C10.1938 1.48636 11.6384 2.17146 12.7363 3.27219C13.8342 4.37293 14.5175 5.82123 14.6698 7.37039H14.0541C13.882 7.37039 13.717 7.43891 13.5954 7.56087C13.4737 7.68283 13.4054 7.84824 13.4054 8.02072C13.4054 8.1932 13.4737 8.35861 13.5954 8.48057C13.717 8.60253 13.882 8.67105 14.0541 8.67105H14.6698C14.5175 10.2202 13.8342 11.6685 12.7363 12.7692C11.6384 13.87 10.1938 14.5551 8.64865 14.7078Z" fill="#E9E9E9"></path>
+                  <path d="M10.4846 7.37108H8.64886V4.55299C8.64637 4.38216 8.57693 4.21917 8.45555 4.09925C8.33417 3.97933 8.17061 3.91211 8.0002 3.91211C7.82979 3.91211 7.66622 3.97934 7.54485 4.09927C7.42348 4.2192 7.35405 4.38219 7.35156 4.55302V8.02141C7.35157 8.19389 7.41991 8.3593 7.54156 8.48125C7.6632 8.60321 7.82818 8.67173 8.00021 8.67174H10.4846C10.655 8.66932 10.8177 8.59974 10.9374 8.47805C11.057 8.35635 11.1241 8.19231 11.1241 8.02141C11.1241 7.85051 11.057 7.68647 10.9374 7.56478C10.8177 7.44308 10.655 7.3735 10.4846 7.37108Z" fill="#E9E9E9"></path>
+                  </svg>
+                  
+                  WarCoins history
+              </li>
+              <li class="min-h-[84px] flex gap-2 flex-col justify-center">
+                <span class="text-xl font-semibold">Select realm</span>
+                <div class="flex items-center gap-1 justify-between">
+                  <div class="flex items-center gap-1">
+                    <img class="max-w-[30px]" src="assets/shop/bgIcon.png" alt="icon">
+                    <span class="text-sm xl:text-base">Netherwing</span>
+                  </div>
+                  <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"></path>
+                    </svg>
+                    
+                </div>
+              </li>
+              <li class="min-h-[84px] flex gap-2 flex-col justify-center">
+                <span class="text-xl font-semibold">Select module</span>
+                <div class="flex items-center gap-1 justify-between">
+                  <div class="flex items-center gap-1">
+                    <img class="max-w-[30px]" src="assets/shop/bgIcon.png" alt="icon">
+                    <span class="text-sm xl:text-base">Services &amp; Items</span>
+                  </div>
+                  <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"></path>
+                    </svg>
+                    
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div class="bg-no-repeat bg-center bg-cover bg-no-repeat items-center flex justify-between min-h-20 px-4 bg-[#5E4BB2] bg-cover" style="background-image: url('assets/shop/shopBlock_bg.png')">
+              <div class="flex items-center gap-2 [&amp;>span]:leading-[100%]">
+                <img class="w-10 h-10 aspect-square" src="assets/greenLogo.png" alt="logo">
+                <div class="flex flex-col gap-">
+                  <span class="font-bold text-xl font-sec">Stormforge+</span>
+                  <span class="text-sm">Get additional features with a membership and get ready fo the new realms now!</span>
+                </div>
+              </div>
+              <button class="min-w-[186px] min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-6">
+                Activate
+              </button>
+            </div>
+            <div class="flex flex-col gap-6">
+              <div class="flex items-center gap-2 bg-[#273257]/80 px-5 xl:px-10">
+                <button class="text-sm xl:text-base flex justify-center text-center gap-1 px-4 min-h-[50px] bg-[#B6D64F] text-[#152045] items-center">
+                  <span class="font-bold">EUR</span>
+                  €
+                </button>
+                <button class="text-sm xl:text-base flex justify-center text-center gap-1 px-4 min-h-[50px] items-center">
+                  <span class="font-bold">PLN</span>
+                  ZL
+                </button>
+                <button class="text-sm xl:text-base flex justify-center text-center gap-1 px-4 min-h-[50px] items-center">
+                  <span class="font-bold">USD</span>
+                  $
+                </button>
+              </div>
+              <div class="flex flex-col gap-4">
+                <span class="font-semibold text-xl">Credit Card:</span>
+                <ul class="grid grid-cols-[repeat(auto-fill,minmax(186px,1fr))] gap-3 lg:gap-4">
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <img class="max-w-[56px]" src="assets/shop/visaLogo.png" alt="logo">
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Viza
+                    </button>
+                  </li>
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <img class="max-w-[56px]" src="assets/shop/masterCardLogo.png" alt="logo">
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Mastercard
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-4">
+                <span class="font-semibold text-xl">Сryptocurrency:</span>
+                <ul class="grid grid-cols-[repeat(auto-fill,minmax(186px,1fr))] gap-3 lg:gap-4">
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1079_42100)">
+                        <path d="M30.9999 15.9999C30.9999 24.8365 24.0604 32 15.5 32C6.93956 32 0 24.8365 0 15.9999C0 7.1634 6.93956 0 15.5 0C24.0603 0 30.9999 7.1634 30.9999 15.9999Z" fill="#BEBEBE"/>
+                        <path d="M27.7095 15.9996C27.7095 22.9596 22.2433 28.6026 15.5004 28.6026C8.75758 28.6026 3.29102 22.9596 3.29102 15.9996C3.29102 9.03907 8.75758 3.39648 15.5004 3.39648C22.2434 3.39648 27.7095 9.03897 27.7095 15.9996Z" fill="#BEBEBE"/>
+                        <path d="M14.5941 20.2748L15.6008 16.3616L17.9844 15.4627L18.5772 13.1629L18.557 13.1059L16.2107 13.9907L17.9012 7.41992H13.1069L10.8962 15.9949L9.05034 16.691L8.44043 19.0619L10.2849 18.3664L8.98189 23.42H21.7414L22.5593 20.2748H14.5941Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1079_42100">
+                        <rect width="31" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Litecoin
+                    </button>
+                  </li>
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1079_42107)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.59154 0.157165L0.0274746 14.246C0.00249647 14.2984 -0.00541895 14.3576 0.00488592 14.4149C0.0151908 14.4722 0.0431753 14.5247 0.0847471 14.5646L17.8127 31.9231C17.8631 31.9724 17.9301 32 17.9999 32C18.0697 32 18.1367 31.9724 18.1871 31.9231L35.9151 14.5657C35.9566 14.5258 35.9846 14.4733 35.9949 14.416C36.0052 14.3587 35.9973 14.2995 35.9723 14.2471L29.4083 0.158249C29.3871 0.110933 29.353 0.0708501 29.3101 0.0427912C29.2672 0.0147322 29.2174 -0.000116069 29.1664 2.09732e-05H6.83548C6.78431 -0.000629456 6.73406 0.0138611 6.69077 0.0417447C6.64749 0.0696283 6.61302 0.109714 6.59154 0.157165Z" fill="#50AF95"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.2774 15.6922C20.1502 15.7019 19.4926 15.742 18.0258 15.742C16.8591 15.742 16.0308 15.7063 15.7402 15.6922C11.2316 15.4895 7.86628 14.6876 7.86628 13.7273C7.86628 12.7671 11.2316 11.9662 15.7402 11.7603V14.8935C16.035 14.9151 16.8793 14.9661 18.0459 14.9661C19.4459 14.9661 20.147 14.9065 20.2732 14.8945V11.7625C24.7723 11.9673 28.1301 12.7693 28.1301 13.7273C28.1301 14.6854 24.7733 15.4874 20.2732 15.6911L20.2774 15.6922ZM20.2774 11.4385V8.63478H26.5562V4.35938H9.46143V8.63478H15.7391V11.4374C10.6366 11.6769 6.79932 12.7097 6.79932 13.9473C6.79932 15.185 10.6366 16.2167 15.7391 16.4573V25.4416H20.2764V16.4541C25.3673 16.2146 29.1982 15.1828 29.1982 13.9463C29.1982 12.7097 25.3705 11.678 20.2764 11.4374L20.2774 11.4385Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1079_42107">
+                        <rect width="36" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>                        
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Tether
+                    </button>
+                  </li>
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <img class="max-w-5" src="assets/shop/ethLogo.png" alt="logo">                       
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Etherium
+                    </button>
+                  </li>
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1079_42117)">
+                        <path d="M11.0085 13.4467L17.9997 7.23248L24.9945 13.4499L29.0625 9.83392L17.9997 0L6.94069 9.83072L11.0085 13.4467ZM0 15.9995L4.06813 12.3834L8.13598 15.9993L4.06789 19.6154L0 15.9995ZM11.0085 18.5533L17.9997 24.7675L24.9943 18.5502L29.0645 22.1643L29.0625 22.1662L17.9997 32L6.94033 22.1696L6.93457 22.1645L11.0085 18.5533ZM27.8641 16.0015L31.9323 12.3854L36.0001 16.0013L31.932 19.6174L27.8641 16.0015Z" fill="#F3BA2F"/>
+                        <path d="M22.1257 15.9974H22.1275L17.9995 12.3281L14.9489 15.0398H14.9487L14.5983 15.3515L13.8754 15.9942L13.8696 15.9992L13.8754 16.0044L17.9995 19.6705L22.1275 16.0012L22.1295 15.9992L22.1257 15.9974Z" fill="#F3BA2F"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1079_42117">
+                        <rect width="36" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>                                              
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Binance
+                    </button>
+                  </li>
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <img class="max-w-8" src="assets/shop/btcLogo.png" alt="logo">                       
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      BitCoin
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-4">
+                <span class="font-semibold text-xl">e-Wallet</span>
+                <ul class="grid grid-cols-[repeat(auto-fill,minmax(186px,1fr))] gap-3 lg:gap-4">
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <svg width="102" height="32" viewBox="0 0 102 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1079_42132)">
+                        <path d="M15.6167 0C7.38503 0 0.642714 6.48378 0 14.7182L8.39854 18.2634C9.10924 17.7694 9.96825 17.4756 10.8952 17.4756C10.9756 17.4756 11.0621 17.4756 11.1424 17.4818L14.8751 11.9547C14.8751 11.9297 14.8751 11.9046 14.8751 11.8734C14.8751 8.54709 17.5263 5.83978 20.7832 5.83978C24.04 5.83978 26.6912 8.54709 26.6912 11.8734C26.6912 15.1997 24.04 17.907 20.7832 17.907C20.7399 17.907 20.6966 17.907 20.6472 17.907L15.3263 21.7898C15.3263 21.8585 15.3324 21.9336 15.3324 22.0023C15.3324 24.4971 13.3425 26.5291 10.8952 26.5291C8.7508 26.5291 6.95244 24.966 6.54456 22.8902L0.537655 20.358C2.39782 27.0731 8.4418 32 15.6167 32C24.2748 32 31.2891 24.8347 31.2891 16C31.2891 7.1653 24.2748 0 15.6167 0Z" fill="#E9E9E9"/>
+                        <path d="M9.81974 24.2789L7.8916 23.4661C8.2315 24.1913 8.82477 24.7978 9.60963 25.1292C11.3029 25.8482 13.2558 25.0292 13.9603 23.2972C14.3002 22.4594 14.3064 21.5341 13.9665 20.6962C13.6266 19.8584 12.9901 19.2019 12.1681 18.8518C11.3524 18.5079 10.481 18.5204 9.71469 18.8142L11.7046 19.6521C12.953 20.1835 13.5463 21.6466 13.0271 22.9221C12.508 24.2038 11.0681 24.8103 9.81974 24.2789Z" fill="#E9E9E9"/>
+                        <path d="M17.8352 11.8676C17.8352 10.1982 19.1577 8.84765 20.7953 8.84765C22.4268 8.84765 23.7555 10.1982 23.7555 11.8676C23.7555 13.537 22.433 14.8875 20.7953 14.8875C19.1638 14.8875 17.8352 13.537 17.8352 11.8676ZM24.7258 11.8738C24.7258 9.65422 22.9583 7.85352 20.7892 7.85352C18.62 7.85352 16.8525 9.66047 16.8525 11.8738C16.8525 14.0935 18.62 15.8942 20.7892 15.8942C22.9583 15.8942 24.7258 14.0935 24.7258 11.8738Z" fill="#E9E9E9"/>
+                        <path d="M47.7462 11.0974L46.7265 12.9231C45.9417 12.3604 44.8787 12.029 43.9517 12.029C42.8888 12.029 42.2337 12.4792 42.2337 13.2795C42.2337 14.2549 43.4017 14.4799 45.1321 15.1177C46.9923 15.793 48.0676 16.5808 48.0676 18.3252C48.0676 20.7074 46.2321 22.0454 43.5933 22.0454C42.3079 22.0454 40.7567 21.7078 39.564 20.9637L40.3056 18.9379C41.2758 19.4631 42.4315 19.7695 43.4635 19.7695C44.854 19.7695 45.5153 19.2443 45.5153 18.469C45.5153 17.5812 44.5079 17.3123 42.8764 16.7621C41.0224 16.1306 39.7308 15.299 39.7308 13.3733C39.7308 11.1974 41.4365 9.95318 43.8899 9.95318C45.608 9.94692 46.9861 10.5034 47.7462 11.0974Z" fill="#E9E9E9"/>
+                        <path d="M55.7062 12.2493V21.8405H53.3084V12.2493H49.8291V10.1484H59.1794V12.2493H55.7062Z" fill="#E9E9E9"/>
+                        <path d="M64.2342 12.243V14.8815H68.8259V16.9761H64.2342V19.7209H69.5614V21.8405H61.8364V10.1484H69.5614V12.243H64.2342Z" fill="#E9E9E9"/>
+                        <path d="M77.1255 12.937L75.562 17.6201H78.7199L77.1255 12.937ZM74.9131 19.5709L74.1529 21.8405H71.6377L75.9328 10.1484H78.3491L82.7616 21.8405H80.1598L79.3873 19.5709H74.9131Z" fill="#E9E9E9"/>
+                        <path d="M95.0725 14.669L91.9393 21.5029H90.5859L87.5021 14.7315V21.8405H85.2031V10.1484H87.4959L91.346 18.5892L95.054 10.1484H97.3653V21.8405H95.0725V14.669Z" fill="#E9E9E9"/>
+                        <path d="M100.146 11.5424H100.424C100.603 11.5424 100.714 11.4236 100.714 11.2798C100.714 11.136 100.64 11.036 100.424 11.036H100.146V11.5424ZM100.443 10.7921C100.85 10.7921 100.993 11.0109 100.993 11.2548C100.993 11.4736 100.863 11.6237 100.708 11.6987L101.079 12.4052H100.776L100.467 11.78H100.146V12.4052H99.8925V10.7984H100.443V10.7921ZM99.0953 11.6237C99.0953 12.4615 99.6886 12.993 100.418 12.993C101.147 12.993 101.734 12.4678 101.734 11.6237C101.734 10.7796 101.141 10.2607 100.418 10.2607C99.6886 10.2607 99.0953 10.7859 99.0953 11.6237ZM102 11.6237C102 12.6303 101.264 13.2556 100.418 13.2556C99.5712 13.2556 98.8296 12.6303 98.8296 11.6237C98.8296 10.617 99.5712 9.99805 100.418 9.99805C101.264 9.99805 102 10.6233 102 11.6237Z" fill="#E9E9E9"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1079_42132">
+                        <rect width="102" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>                        
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      Steam
+                    </button>
+                  </li>
+                  <li>
+                    <div class="min-h-[72px] flex items-center items-center text-center justify-center bg-[#273257]">
+                      <img class="max-w-[124px]" src="assets/shop/webMoneyLogo.png" alt="logo">
+                    </div>
+                    <button class="min-h-10 flex justify-center items-center text-center text-[#152045] text-xs font-medium bg-[#469AF5] w-full px-4"> 
+                      WebMoney
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15 relative z-[5]">
+    <div class="container flex items-start gap-4 justify-between">
+      <div class="flex flex-col gap-10 max-w-[294px]">
+        <img src="" alt="">
+        <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
+      </div>
+      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+        <span class="font-sec opacity-50 text-xl">Navigation</span>
+        <a href="#">
+          Navigation
+        </a>
+        <a href="#">
+          Shop
+        </a>
+        <a href="#">
+          FAQ
+        </a>
+        <a href="#">
+          News
+        </a>
+      </div>
+      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+        <span class="font-sec opacity-50 text-xl">Navigation</span>
+        <a href="#">
+          Navigation
+        </a>
+        <a href="#">
+          Shop
+        </a>
+        <a href="#">
+          FAQ
+        </a>
+        <a href="#">
+          News
+        </a>
+      </div>
+      <div class="flex flex-col gap-6">
+        <span class="font-sec opacity-50 text-xl">Support</span>
+        <ul class="flex items-center gap-5">
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/tg_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/discord_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/m_icon.svg" alt="icon">
+          </a>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-6">
+        <span class="font-sec opacity-50 text-xl">Subscribe</span>
+        <ul class="flex items-center gap-5">
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/tg_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/discord_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/m_icon.svg" alt="icon">
+          </a>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
