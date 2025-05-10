@@ -12,8 +12,8 @@
 <body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/shop/shopSingle_bg.png')] bg-[100%_auto] bg-top-left bg-no-repeat relative bg-blend-luminosity">
   <header class="absolute top-0 left-0 w-full z-10 bg-[#152045]">
     <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
-<img src="assets/logo.svg" />
-      <nav class="flex items-center gap-10 font-sec">
+      <img src="assets/logo.svg" />
+      <nav class="flex hidden items-center gap-10 font-sec">
         <li>
           <a href="#" class="text-xl">
             How to begin?
@@ -45,7 +45,7 @@
           </a>
         </li>
       </nav>
-      <div class="flex items-center gap-10 font-sec text-xl">
+      <div class="flex items-center gap-4 lg:gap-10 font-sec text-xl">
         <div class="flex items-center gap-2 [&>span]:leading-[100%]">
           <span>Region:</span>
           <div class="flex items-center gap-1">
@@ -101,18 +101,18 @@
               <img class="max-w-[30px]" src="assets/shop/bgIcon.png" alt="icon">
                 <div class="text-sm xl:text-base">PTR TBC (Realm base: <span class="font-bold">Outland</span>)</div>
             </div>
-            <div class="p-4 xl:p-6 bg-[#273257] flex flex-col"> 
+            <div class="p-3 lg:p-4 xl:p-6 bg-[#273257] flex flex-col"> 
               <ul class="flex flex-col gap-y-2">
                 <li class="flex items-center justify-between gap-2 pb-2 border-b border-solid border-[#E9E9E9]/15">
-                  <div class="flex items-center gap-4">
-                    <img class="w-11 h-11 xl:w-[62px] xl:h-[62px]" src="assets/shop/characterIcon1_shop.png" alt="icon">
-                    <span class="font-bold">Tizzy</span>
+                  <div class="flex items-center gap-2 lg:gap-4">
+                    <img class="w-9 h-9 lg:w-11 lg:h-11 xl:w-[62px] xl:h-[62px]" src="assets/shop/characterIcon1_shop.png" alt="icon">
+                    <span class="font-bold line-clamp-1 max-w-[64px] md:max-w-fit">Tizzy</span>
                   </div>
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2 lg:gap-4">
                     <img class="w-8 h-8 xl:w-10 xl:h-10" src="assets/itemIcon_dh.png" alt="icon">
                     <span class="text-xs text-[#469AF5] opacity-85">Demon Hunter</span>
                   </div>
-                  <div class="flex items-center gap-10">
+                  <div class="flex items-center gap-4 lg:gap-10">
                     <span class="text-xs opacity-80 font-bold">50 lvl</span>
                     <button>
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,15 +123,15 @@
                   </div>
                 </li>
                 <li class="flex items-center justify-between gap-2">
-                  <div class="flex items-center gap-4">
-                    <img class="w-11 h-11 xl:w-[62px] xl:h-[62px]" src="assets/shop/characterIcon1_shop.png" alt="icon">
-                    <span class="font-bold">Tizzy</span>
+                  <div class="flex items-center gap-2 lg:gap-4">
+                    <img class="w-9 h-9 lg:w-11 lg:h-11 xl:w-[62px] xl:h-[62px]" src="assets/shop/characterIcon1_shop.png" alt="icon">
+                    <span class="font-bold line-clamp-1 max-w-[64px] md:max-w-fit">Tizzy</span>
                   </div>
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2 lg:gap-4">
                     <img class="w-8 h-8 xl:w-10 xl:h-10" src="assets/itemIcon_dh.png" alt="icon">
                     <span class="text-xs text-[#469AF5] opacity-85">Demon Hunter</span>
                   </div>
-                  <div class="flex items-center gap-10">
+                  <div class="flex items-center gap-4 lg:gap-10">
                     <span class="text-xs opacity-80 font-bold">50 lvl</span>
                     <button>
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,13 +148,13 @@
       </div>
     </section>
   </main>
-  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15 relative z-[5]">
-    <div class="container flex items-start gap-4 justify-between">
-      <div class="flex flex-col gap-10 max-w-[294px]">
-        <img src="" alt="">
+  <footer class="border-t border-solid py-11 border-[#E9E9E9]/15">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
         <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -169,7 +169,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -184,7 +184,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Support</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
@@ -198,7 +198,7 @@
           </a>
         </ul>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Subscribe</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">

@@ -13,7 +13,7 @@
   <header>
     <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
 <img src="assets/logo.svg" />
-      <nav class="flex items-center gap-10 font-sec">
+      <nav class="flex items-center gap-10 font-sec fixed xl:static top-0 left-0 w-full h-full xl:w-fit hidden">
         <li>
           <a href="#" class="text-xl">
             How to begin?
@@ -71,9 +71,9 @@
     </div>
   </header>
   <main class="flex-1">
-    <section>
+    <section class="pb-20">
       <div class="container">
-        <div class="flex items-center gap-5 opacity-30 text-sm 2xl:text-base">
+        <div class="flex items-center gap-5 opacity-30 text-sm 2xl:text-base mb-6">
             <a href="#">
               <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9942 7.48621C13.5758 7.48621 13.2367 7.82534 13.2367 8.24368V16.0218C13.2367 17.038 12.4129 17.8618 11.3967 17.8618C10.3805 17.8618 9.55674 17.038 9.55674 16.0218V12.6522C9.55674 11.5477 8.66131 10.6522 7.55674 10.6522H7.44326C6.33869 10.6522 5.44325 11.5477 5.44325 12.6522V16.0218C5.44325 17.038 4.61947 17.8618 3.60327 17.8618C2.58707 17.8618 1.76329 17.038 1.76329 16.0218V8.24368C1.76329 7.82534 1.42415 7.48621 1.00581 7.48621C0.307636 7.48621 -0.0187796 6.62185 0.505118 6.16035L3.24917 3.7431L6.1797 1.16361C6.93539 0.498433 8.06772 0.498651 8.82316 1.16412L11.7508 3.7431L14.4949 6.16035C15.0188 6.62185 14.6924 7.48621 13.9942 7.48621Z" fill="#E9E9E9"/>
@@ -84,7 +84,7 @@
             <span>-</span>
             <a href="#" class="hover:underline">Return to Outland</a>            
         </div>
-        <div class="grid grid-cols-[74.5%_25.5%]">
+        <div class="flex flex-col gap-y-10 lg:grid grid-cols-[74.5%_25.5%]">
           <div>
             <div class="min-h-[200px] 2xl:min-h-[270px] relative">
               <img 
@@ -94,7 +94,7 @@
               >
             </div>
             <div class="p-5 lg:p-6 xl:p-8 bg-[#273257] flex flex-col gap-4">
-              <div class="flex items-center justify-between">
+              <div class="flex flex-col lg:flex-row gap-y-4 lg:items-center justify-between">
                 <span class="text-[#469AF5]">Server updated</span>
                 <div class="flex items-center gap-[clamp(24px,2.5vw,40px)]">
                   <div class="flex items-center gap-4">
@@ -125,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="pl-6 flex flex-col gap-4">
+          <div class="lg:pl-6 flex flex-col gap-4">
             <span class="font-bold text-2xl font-sec">What to read next?</span>
             <ul class="flex flex-col gap-4">
               <li class="bg-[#273257] py-6 px-5 xl:px-7 flex flex-col gap-2">
@@ -174,12 +174,12 @@
     </section>
   </main>
   <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15">
-    <div class="container flex items-start gap-4 justify-between">
-      <div class="flex flex-col gap-10 max-w-[294px]">
-        <img src="" alt="">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
         <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -194,7 +194,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -209,7 +209,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Support</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
@@ -223,7 +223,7 @@
           </a>
         </ul>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Subscribe</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">

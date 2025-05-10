@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
 <body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/faq_bg.jpg')] bg-fixed bg-cover bg-no-repeat bg-blend-luminosity">
-  <header>
+  <header class="absolute bg-[#152045] top-0 left-0 w-full z-10">
     <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
 <img src="assets/logo.svg" />
-      <nav class="flex items-center gap-10 font-sec">
+      <nav class="flex items-center gap-10 font-sec fixed xl:static top-0 left-0 w-full h-full xl:w-fit hidden">
         <li>
           <a href="#" class="text-xl">
             How to begin?
@@ -71,54 +71,54 @@
     </div>
   </header>
   <main class="flex-1">
-    <section class="pb-32 pt-44">
+    <section class="pb-32 pt-20 lg:pt-44">
       <div class="container">
-        <div class="flex items-center justify-between">
-          <div class="max-w-[680px] w-full">
+        <div class="flex flex-col-reverse lg:flex-row items-center gap-4 justify-between">
+          <div class="max-w-[540px] xl:max-w-[680px] w-full">
             <h1 class="text-3xl font-bold mb-8 xl:mb-10">
               FaQ
             </h1>
-            <ul class="flex flex-col gap-6">
-              <li class="flex flex-col gap-4 pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+            <ul class="flex flex-col gap-3 xl:gap-6">
+              <li class="flex flex-col gap-4 pb-3 xl:pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
                 <div class="flex items-center gap-4">
                   <span class="block shrink-0 rounded-full w-2.5 aspect-square bg-[#469AF5]"></span>
-                  <span class="font-bold text-xl">Why WarCrown?</span>
+                  <span class="font-bold text-lg xl:text-xl">Why WarCrown?</span>
                 </div>
-                <p class="!text-base leading-[120%] max-w-[600px] hidden">
+                <p class="!text-sm xl:!text-base leading-[120%] max-w-[600px] hidden">
                   Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
                 </p>
               </li>
-              <li class="flex flex-col gap-4 pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+              <li class="flex flex-col gap-4 pb-3 xl:pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
                 <div class="flex items-center gap-4">
                   <span class="block shrink-0 rounded-full w-2.5 aspect-square bg-[#B6D64F]"></span>
-                  <span class="font-bold text-xl">How to begin?</span>
+                  <span class="font-bold text-lg xl:text-xl">How to begin?</span>
                 </div>
-                <p class="!text-base leading-[120%] max-w-[600px]">
+                <p class="!text-sm xl:!text-base leading-[120%] max-w-[600px]">
                   Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
                 </p>
               </li>
-              <li class="flex flex-col gap-4 pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+              <li class="flex flex-col gap-4 pb-3 xl:pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
                 <div class="flex items-center gap-4">
                   <span class="block shrink-0 rounded-full w-2.5 aspect-square bg-[#469AF5]"></span>
-                  <span class="font-bold text-xl">Is there sales or promocodes?</span>
+                  <span class="font-bold text-lg xl:text-xl">Is there sales or promocodes?</span>
                 </div>
-                <p class="!text-base leading-[120%] max-w-[600px] hidden">
+                <p class="!text-sm xl:!text-base leading-[120%] max-w-[600px] hidden">
                   Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
                 </p>
               </li>
-              <li class="flex flex-col gap-4 pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+              <li class="flex flex-col gap-4 pb-3 xl:pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
                 <div class="flex items-center gap-4">
                   <span class="block shrink-0 rounded-full w-2.5 aspect-square bg-[#469AF5]"></span>
-                  <span class="font-bold text-xl">Why is it slow?</span>
+                  <span class="font-bold text-lg xl:text-xl">Why is it slow?</span>
                 </div>
-                <p class="!text-base leading-[120%] max-w-[600px] hidden">
+                <p class="!text-sm xl:!text-base leading-[120%] max-w-[600px] hidden">
                   Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
                 </p>
               </li>
-              <li class="flex flex-col gap-4 pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+              <li class="flex flex-col gap-4 pb-3 xl:pb-6 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
                 <div class="flex items-center gap-4">
                   <span class="block shrink-0 rounded-full w-2.5 aspect-square bg-[#469AF5]"></span>
-                  <span class="font-bold text-xl">How to choose weapon?</span>
+                  <span class="font-bold text-lg xl:text-xl">How to choose weapon?</span>
                 </div>
                 <p class="!text-base leading-[120%] max-w-[600px] hidden">
                   Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
@@ -126,7 +126,7 @@
               </li>
             </ul>
           </div>
-          <form>
+          <form class="max-w-[540px] mb-14 lg:max-w-fit lg:mb-0 w-full lg:w-fit">
             <div class="mb-4 flex justify-center items-center">
               <img class="max-w-[60px]" src="assets/crownIcon.svg" alt="icon">
             </div>
@@ -137,7 +137,7 @@
                   Already registered?
                 </a>
               </div>
-              <ul class="flex flex-col gap-6">
+              <ul class="flex flex-col gap-4 xl:gap-6">
                 <li>
                   <input type="text" class="w-full pb-2 border-b border-solid border-[#E9E9E9]/30 outline-none text-base xl:text-lg text-[inherit] px-2 placeholder:text-[inherit] duration-200 transition-colors focus-visible:border-[#E9E9E9]/60" placeholder="Name">
                 </li>
@@ -163,12 +163,12 @@
     </section>
   </main>
   <footer class="border-t border-solid py-11 border-[#E9E9E9]/15">
-    <div class="container flex items-start gap-4 justify-between">
-      <div class="flex flex-col gap-10 max-w-[294px]">
-        <img src="" alt="">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
         <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -183,7 +183,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -198,7 +198,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Support</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
@@ -212,7 +212,7 @@
           </a>
         </ul>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Subscribe</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">

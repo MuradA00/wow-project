@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>War Crown Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi:regular,500,600,700" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/forum/forum_bg.png')] bg-[100%_auto] bg-top-left bg-no-repeat relative bg-blend-luminosity bg-fixed">
+  <header class="absolute top-0 left-0 w-full z-10 bg-[#152045]">
+    <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
+      <img src="assets/logo.svg" />
+      <nav class="flex hidden items-center gap-10 font-sec">
+        <li>
+          <a href="#" class="text-xl">
+            How to begin?
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            News
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Forum
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Shop
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Logs
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            FAQ
+          </a>
+        </li>
+      </nav>
+      <div class="flex items-center gap-10 font-sec text-xl">
+        <div class="flex items-center gap-2 [&>span]:leading-[100%]">
+          <span>Region:</span>
+          <div class="flex items-center gap-1">
+            <span class="font-semibold">USA</span>
+            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.62695 5L0.0288777 0.5L5.22503 0.5L2.62695 5Z" fill="#E9E9E9"/>
+              </svg>
+          </div>
+        </div>
+        <div class="w-9 h-6">
+          <img src="assets/usa_flag.svg" alt="flag">
+        </div>
+      </div>
+      <button class="text-sm font-medium text-[#152045] pt-2 min-w-[64px] flex flex-col gap-1 bg-100 items-center text-center">
+        <img 
+          src="assets/log-out_bg.png" 
+          class="h-[88px] absolute top-0 z-[-1]" 
+          alt="bg"
+        >
+        <img class="w-8 h-8" src="assets/orc-icon.svg" alt="icon">
+        <span>log out</span>
+      </button>
+    </div>
+  </header>
+  <main class="flex-1">
+    <section class="pt-[100px] pb-20">
+      <div class="container z-[1]">
+        <div class="flex items-center mb-8 gap-6 xl:gap-10">
+          <h1 class="text-2xl xl:text-3xl font-bold font-sec">Forum</h1>
+          <span class="block h-6 w-[1px] bg-[#E9E9E9] opacity-15"></span>
+          <span class="text-sm xl:text-base">Mistblade</span>
+        </div>
+        <div class="lg:grid flex flex-col grid-cols-[240px_1fr] 2xl:grid-cols-[260px_1fr] gap-5 items-start">
+          <div class="bg-[#273257]/80 w-full">
+            <div class="flex px-5 xl:px-10 flex-col gap-1 border-b border-[#E9E9E9]/15 border-solid min-h-[64px] lg:min-h-[98px] justify-center">
+              <span class="text-sm opacity-50">server</span>
+              <div class="flex items-center gap-1 justify-between">
+                <span class="text-[#B6D64F] font-sec">Mistblade</span>
+                <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#E9E9E9"/>
+                </svg>                  
+              </div>
+            </div>
+            <ul class="pt-4 lg:pt-6 pb-4 lg:pb-8 flex flex-col gap-4 px-5 xl:px-8 2xl:px-10">               
+              <a href="#" class="flex items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6666 0.666667C10.6666 1.03485 10.3681 1.33333 9.99992 1.33333H8.66658V2.66667C8.66658 2.67768 8.66632 2.68863 8.66578 2.69951C12.0351 3.03362 14.6666 5.87616 14.6666 9.33333C14.6666 13.0152 11.6818 16 7.99992 16C4.31802 16 1.33325 13.0152 1.33325 9.33333C1.33325 5.87616 3.96479 3.03362 7.33405 2.69951C7.33352 2.68863 7.33325 2.67768 7.33325 2.66667V1.33333H5.99992C5.63173 1.33333 5.33325 1.03485 5.33325 0.666666C5.33325 0.298477 5.63173 0 5.99992 0H9.99992C10.3681 0 10.6666 0.298477 10.6666 0.666667ZM7.99992 10C7.63172 10 7.33325 9.70153 7.33325 9.33333V6.66667C7.33325 6.29848 7.63172 6 7.99992 6C8.36812 6 8.66658 6.29848 8.66658 6.66667V9.33333C8.66658 9.70153 8.36812 10 7.99992 10Z" fill="#E9E9E9"/>
+                  </svg>   
+                <span class="font-sec text-sm xl:text-base">Recent logs</span>
+              </a>
+              <a href="#" class="flex items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3130_18272)">
+                  <path d="M15.7333 2.40033C15.7 2.06699 15.4 1.83366 15.1 1.83366H12.5V0.833659C12.5 0.466992 12.2 0.166992 11.8333 0.166992H4.16664C3.79997 0.166992 3.49997 0.466992 3.49997 0.833659V1.86699H0.899972C0.566639 1.86699 0.299972 2.10033 0.266639 2.43366C0.233305 2.60033 -0.366695 6.90033 1.76664 9.36699C2.69997 10.4337 3.96664 10.967 5.53331 11.0337C6.06664 11.4003 6.66664 11.6337 7.3333 11.7337V14.567H4.39997C4.0333 14.567 3.7333 14.867 3.7333 15.2337C3.7333 15.6003 4.0333 15.9003 4.39997 15.9003H11.5333C11.9 15.9003 12.2 15.6003 12.2 15.2337C12.2 14.867 11.9 14.567 11.5333 14.567H8.66664V11.7337C9.3333 11.6337 9.9333 11.4003 10.4666 11.0337C12.0333 11.0003 13.3333 10.4337 14.2333 9.36699C16.3666 6.90033 15.7666 2.60033 15.7333 2.40033ZM2.76664 8.50033C1.43331 6.93366 1.43331 4.30033 1.49997 3.16699H3.49997V7.26699C3.49997 8.06699 3.69997 8.80033 4.06664 9.46699C3.56664 9.23366 3.13331 8.93366 2.76664 8.50033ZM13.2333 8.50033C12.8666 8.93366 12.4333 9.23366 11.9 9.43366C12.2666 8.80033 12.4666 8.03366 12.4666 7.23366V3.16699H14.4666C14.5666 4.30033 14.6 6.96699 13.2333 8.50033Z" fill="#E9E9E9"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_3130_18272">
+                  <rect width="16" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>                  
+                <span class="font-sec text-sm xl:text-base">Challenge modes</span>
+              </a>
+              <li class="flex items-center gap-2 justify-between">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3130_18277)">
+                  <path d="M5.1146 9.01192C5.88888 9.01192 6.51656 8.38424 6.51656 7.60996C6.51656 6.83569 5.88888 6.20801 5.1146 6.20801C4.34032 6.20801 3.71265 6.83569 3.71265 7.60996C3.71265 8.38424 4.34032 9.01192 5.1146 9.01192Z" fill="#E9E9E9"/>
+                  <path d="M10.8854 9.01192C11.6596 9.01192 12.2873 8.38424 12.2873 7.60996C12.2873 6.83569 11.6596 6.20801 10.8854 6.20801C10.1111 6.20801 9.4834 6.83569 9.4834 7.60996C9.4834 8.38424 10.1111 9.01192 10.8854 9.01192Z" fill="#E9E9E9"/>
+                  <path d="M9.50413 0H6.49564C3.31395 0 0.794207 2.68839 1.00005 5.86343L1.3623 11.4512C1.41981 12.3383 2.15619 13.0285 3.04521 13.0285H3.87967L4.147 16H6.26998V13.9337H7.20764V16H8.79213V13.9337H9.72979V16H11.8528L12.1201 13.0285H12.9546C13.8436 13.0285 14.58 12.3383 14.6375 11.4512L14.9997 5.8634C15.2056 2.68839 12.6858 0 9.50413 0ZM7.45412 12.0816H6.51646V10.7235H7.45412V12.0816ZM5.1145 9.94969C3.82444 9.94969 2.77489 8.90014 2.77489 7.61007C2.77489 6.32001 3.82444 5.27046 5.1145 5.27046C6.40457 5.27046 7.45412 6.32001 7.45412 7.61007C7.45412 8.90014 6.40457 9.94969 5.1145 9.94969ZM9.48328 12.0816H8.54562V10.7235H9.48328V12.0816ZM10.8853 9.94969C9.5952 9.94969 8.54565 8.90014 8.54565 7.61007C8.54565 6.32001 9.5952 5.27046 10.8853 5.27046C12.1753 5.27046 13.2249 6.32001 13.2249 7.61007C13.2249 8.90014 12.1753 9.94969 10.8853 9.94969Z" fill="#E9E9E9"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_3130_18277">
+                  <rect width="16" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>                  
+                <span class="font-sec text-sm xl:text-base mr-auto xl:mr-[initial]">Challenge modes</span>
+                <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#E9E9E9"/>
+                  </svg>                  
+              </li>
+              <li class="grid grid-cols-[auto_1fr_auto] items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3130_18286)">
+                  <path d="M7.99741 1.21863C8.37189 1.21713 8.67667 1.51948 8.67817 1.89396C8.67967 2.26844 8.37733 2.57323 8.00285 2.57473C7.62837 2.57623 7.32358 2.27388 7.32208 1.8994C7.32208 1.89849 7.32208 1.89759 7.32208 1.89668C7.32058 1.5237 7.62171 1.22014 7.99469 1.21863C7.9956 1.21863 7.9965 1.21863 7.99741 1.21863ZM11.2547 1.89665H10.4818C10.1074 0.525336 8.69224 -0.282851 7.32092 0.091505C6.44217 0.331408 5.75565 1.01792 5.51575 1.89668H4.7455C3.17332 1.89818 1.89921 3.1723 1.89771 4.74448V13.1522C1.89921 14.7244 3.17332 15.9985 4.7455 16H11.2547C12.8269 15.9985 14.101 14.7244 14.1025 13.1522V4.74445C14.101 3.1723 12.8269 1.89815 11.2547 1.89665ZM10.1698 12.7454H5.83038C5.4559 12.7454 5.15233 12.4418 5.15233 12.0673C5.15233 11.6928 5.4559 11.3893 5.83038 11.3893H10.1698C10.5443 11.3893 10.8479 11.6928 10.8479 12.0673C10.8479 12.4418 10.5443 12.7454 10.1698 12.7454ZM10.4411 9.62638H5.55916C5.18468 9.62638 4.88111 9.32282 4.88111 8.94834C4.88111 8.57386 5.18468 8.27029 5.55916 8.27029H10.4411C10.8155 8.27029 11.1191 8.57386 11.1191 8.94834C11.1191 9.32279 10.8155 9.62638 10.4411 9.62638ZM10.4411 6.50737H5.55916C5.18468 6.50737 4.88111 6.2038 4.88111 5.82932C4.88111 5.45484 5.18468 5.15128 5.55916 5.15128H10.4411C10.8155 5.15128 11.1191 5.45484 11.1191 5.82932C11.1191 6.2038 10.8155 6.50737 10.4411 6.50737Z" fill="#E9E9E9"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_3130_18286">
+                  <rect width="16" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                                  
+                <span class="font-sec text-sm xl:text-base">T15</span>
+                <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#E9E9E9"/>
+                  </svg>                  
+              </li>
+              <li class="grid grid-cols-[auto_1fr_auto] items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3130_18286)">
+                  <path d="M7.99741 1.21863C8.37189 1.21713 8.67667 1.51948 8.67817 1.89396C8.67967 2.26844 8.37733 2.57323 8.00285 2.57473C7.62837 2.57623 7.32358 2.27388 7.32208 1.8994C7.32208 1.89849 7.32208 1.89759 7.32208 1.89668C7.32058 1.5237 7.62171 1.22014 7.99469 1.21863C7.9956 1.21863 7.9965 1.21863 7.99741 1.21863ZM11.2547 1.89665H10.4818C10.1074 0.525336 8.69224 -0.282851 7.32092 0.091505C6.44217 0.331408 5.75565 1.01792 5.51575 1.89668H4.7455C3.17332 1.89818 1.89921 3.1723 1.89771 4.74448V13.1522C1.89921 14.7244 3.17332 15.9985 4.7455 16H11.2547C12.8269 15.9985 14.101 14.7244 14.1025 13.1522V4.74445C14.101 3.1723 12.8269 1.89815 11.2547 1.89665ZM10.1698 12.7454H5.83038C5.4559 12.7454 5.15233 12.4418 5.15233 12.0673C5.15233 11.6928 5.4559 11.3893 5.83038 11.3893H10.1698C10.5443 11.3893 10.8479 11.6928 10.8479 12.0673C10.8479 12.4418 10.5443 12.7454 10.1698 12.7454ZM10.4411 9.62638H5.55916C5.18468 9.62638 4.88111 9.32282 4.88111 8.94834C4.88111 8.57386 5.18468 8.27029 5.55916 8.27029H10.4411C10.8155 8.27029 11.1191 8.57386 11.1191 8.94834C11.1191 9.32279 10.8155 9.62638 10.4411 9.62638ZM10.4411 6.50737H5.55916C5.18468 6.50737 4.88111 6.2038 4.88111 5.82932C4.88111 5.45484 5.18468 5.15128 5.55916 5.15128H10.4411C10.8155 5.15128 11.1191 5.45484 11.1191 5.82932C11.1191 6.2038 10.8155 6.50737 10.4411 6.50737Z" fill="#E9E9E9"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_3130_18286">
+                  <rect width="16" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>    
+                <span class="font-sec text-sm xl:text-base">T14</span>
+                <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#E9E9E9"/>
+                  </svg>                  
+              </li>
+              <li class="grid grid-cols-[auto_1fr_auto] items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2958 9.94238C13.8352 12.2412 11.7052 14.2783 7.96407 16C4.4672 14.3862 2.36095 12.4413 1.70338 10.2181C1.49735 9.52188 1.58132 5.76666 1.63132 3.52359C1.64495 2.92581 1.65685 2.38903 1.6631 1.96987C4.40241 1.58681 6.51488 0.925625 7.95213 0C9.90639 1.12592 12.0779 1.82299 14.3224 2.04487C14.3286 2.47659 14.3439 3.02612 14.361 3.63653C14.4185 5.72956 14.5058 8.89278 14.2957 9.94278L14.2958 9.94238Z" fill="#E9E9E9"/>
+                  </svg>                   
+                <span class="font-sec text-sm xl:text-base">PvP Statistics</span>
+                <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#E9E9E9"/>
+                  </svg>                  
+              </li>
+              <li class="grid grid-cols-[auto_1fr_auto] items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3130_18310)">
+                  <path d="M3.63473 16.0007C5.59463 16.0007 7.19452 14.4007 7.19452 12.4407C7.19452 10.474 5.59463 8.87402 3.63473 8.87402C1.66816 8.87402 0.0681152 10.474 0.0681152 12.4407C0.0681152 14.4007 1.66816 16.0007 3.63473 16.0007Z" fill="#E9E9E9"/>
+                  <path d="M15.8418 3.10661L14.3952 0.599935C14.2753 0.39327 14.0552 0.266602 13.8153 0.266602H10.922C10.6821 0.266602 10.4621 0.39327 10.342 0.599935L8.89538 3.10661C8.77543 3.31328 8.77543 3.56661 8.89538 3.77328L10.342 6.27995C10.4621 6.48662 10.6821 6.61329 10.922 6.61329H13.8153C14.0552 6.61329 14.2753 6.48662 14.3952 6.27995L15.8418 3.77328C15.9619 3.56661 15.9619 3.31328 15.8418 3.10661Z" fill="#E9E9E9"/>
+                  <path d="M15.8811 11.5477C15.7545 11.1676 15.4278 10.8943 15.0345 10.8343L13.8411 10.661L13.308 9.58097C13.1346 9.22095 12.7746 9.00098 12.3679 9.00098C11.968 9.00098 11.608 9.22095 11.428 9.58097L10.8946 10.661L9.70798 10.8343C9.30809 10.8943 8.98144 11.1676 8.86132 11.5477C8.7347 11.9277 8.83479 12.341 9.12141 12.6276L9.98808 13.461L9.78138 14.6476C9.71465 15.0477 9.87464 15.441 10.2013 15.6743C10.3813 15.8076 10.6013 15.881 10.8147 15.881C10.9814 15.881 11.148 15.8343 11.3013 15.7543L12.3679 15.1943L13.4346 15.7543C13.7879 15.941 14.2145 15.9143 14.5412 15.6743C14.8611 15.441 15.0211 15.0477 14.9546 14.6476L14.7545 13.461L15.6145 12.6276C15.9011 12.341 16.0012 11.9343 15.8811 11.5477Z" fill="#E9E9E9"/>
+                  <path d="M7.14159 2.54667C7.02148 2.16667 6.69483 1.89331 6.29494 1.83334L5.10829 1.66L4.57494 0.58667C4.39493 0.219971 4.03492 0 3.63503 0C3.2283 0 2.86829 0.219971 2.69496 0.58667L2.16161 1.66L0.968447 1.83334C0.575067 1.89331 0.248417 2.16667 0.121794 2.55331C0.00184306 2.93331 0.101775 3.34664 0.388387 3.62667L1.24839 4.46668L1.04836 5.65333C0.981793 6.04668 1.14178 6.43999 1.46176 6.67998C1.78841 6.91334 2.21499 6.93999 2.56833 6.75334L3.63503 6.19332L4.70157 6.75334C4.85488 6.84001 5.02154 6.88001 5.1882 6.88001C5.8318 6.88001 6.33044 6.29525 6.22154 5.65333L6.015 4.46668L6.88151 3.62667C7.16828 3.34664 7.26822 2.93331 7.14159 2.54667Z" fill="#E9E9E9"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_3130_18310">
+                  <rect width="16" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>                                
+                <span class="font-sec text-sm xl:text-base">Miscellaneous </span>
+                <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#E9E9E9"/>
+                  </svg>                  
+              </li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-4 gap-3 xl:gap-x-5 gap-y-4 w-full">
+            <div class="relative col-span-4 md:col-span-2 lg:col-span-1 bg-[#273257]/80 backdrop-blur-[16px]">
+              <div class="absolute h-8 left-4 -top-2">
+                <svg width="26" height="32" viewBox="0 0 26 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4491 19.8848C24.5278 24.4824 20.2678 28.5566 12.7856 32C5.79181 28.7724 1.57931 24.8826 0.264189 20.4362C-0.147874 19.0438 0.0200638 11.5333 0.120064 7.04719C0.147314 5.85162 0.171126 4.77806 0.183626 3.93975C5.66225 3.17362 9.88719 1.85125 12.7617 0C16.6702 2.25185 21.0133 3.64599 25.5022 4.08975C25.5147 4.95319 25.5453 6.05225 25.5794 7.27306C25.6944 11.4591 25.8691 17.7856 25.4489 19.8856L25.4491 19.8848Z" fill="#E9E9E9"/>
+                  </svg>                  
+              </div>
+              <div class="py-2.5 px-4 border-b border-solid border-[#E9E9E9]/15 pl-10">
+                <div class="flex items-center gap-2 justify-end mb-2">
+                  <span class="text-xs">Encounters defeated last week</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                    <path d="M8.5625 6.07812V13H7.10938V6.07812H8.5625ZM7 3.83594C7 3.60156 7.07031 3.40365 7.21094 3.24219C7.35677 3.08073 7.57031 3 7.85156 3C8.1276 3 8.33854 3.08073 8.48438 3.24219C8.63542 3.40365 8.71094 3.60156 8.71094 3.83594C8.71094 4.0599 8.63542 4.2526 8.48438 4.41406C8.33854 4.57031 8.1276 4.64844 7.85156 4.64844C7.57031 4.64844 7.35677 4.57031 7.21094 4.41406C7.07031 4.2526 7 4.0599 7 3.83594Z" fill="#E9E9E9"/>
+                    <circle cx="8" cy="8" r="7.5" stroke="#E9E9E9"/>
+                    </g>
+                    </svg>                    
+                </div>
+                <div class="font-semibold text-xl text-right w-full">
+                  <span>19</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 flex-wrap py-2 text-xs px-4">
+                <span class="text-[#B6D64F]">+36%</span>
+                compared to the previous reset
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.5">
+                  <path d="M8.5625 6.07812V13H7.10938V6.07812H8.5625ZM7 3.83594C7 3.60156 7.07031 3.40365 7.21094 3.24219C7.35677 3.08073 7.57031 3 7.85156 3C8.1276 3 8.33854 3.08073 8.48438 3.24219C8.63542 3.40365 8.71094 3.60156 8.71094 3.83594C8.71094 4.0599 8.63542 4.2526 8.48438 4.41406C8.33854 4.57031 8.1276 4.64844 7.85156 4.64844C7.57031 4.64844 7.35677 4.57031 7.21094 4.41406C7.07031 4.2526 7 4.0599 7 3.83594Z" fill="#E9E9E9"/>
+                  <circle cx="8" cy="8" r="7.5" stroke="#E9E9E9"/>
+                  </g>
+                  </svg>                  
+              </div>
+            </div>
+            <div class="relative col-span-4 md:col-span-2 lg:col-span-1 bg-[#273257]/80 backdrop-blur-[16px]">
+              <div class="absolute h-8 left-4 -top-2">
+                <svg width="29" height="32" viewBox="0 0 29 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.25264 18.0238C9.8012 18.0238 11.0566 16.7685 11.0566 15.2199C11.0566 13.6714 9.8012 12.416 8.25264 12.416C6.70409 12.416 5.44873 13.6714 5.44873 15.2199C5.44873 16.7685 6.70409 18.0238 8.25264 18.0238Z" fill="#E9E9E9"/>
+                  <path d="M19.7941 18.0238C21.3427 18.0238 22.5981 16.7685 22.5981 15.2199C22.5981 13.6714 21.3427 12.416 19.7941 12.416C18.2456 12.416 16.9902 13.6714 16.9902 15.2199C16.9902 16.7685 18.2456 18.0238 19.7941 18.0238Z" fill="#E9E9E9"/>
+                  <path d="M17.0317 0H11.0147C4.65133 0 -0.388148 5.37679 0.0235468 11.7269L0.748045 22.9023C0.863065 24.6767 2.33581 26.057 4.11387 26.057H5.78278L6.31743 31.9999H10.5634V27.8674H12.4387V31.9999H15.6077V27.8674H17.483V31.9999H21.729L22.2636 26.057H23.9325C25.7107 26.057 27.1833 24.6766 27.2984 22.9023L28.0229 11.7268C28.4346 5.37679 23.3951 0 17.0317 0ZM12.9317 24.1632H11.0564V21.447H12.9317V24.1632ZM8.25245 19.8994C5.67232 19.8994 3.57321 17.8003 3.57321 15.2201C3.57321 12.64 5.67232 10.5409 8.25245 10.5409C10.8326 10.5409 12.9317 12.64 12.9317 15.2201C12.9317 17.8003 10.8326 19.8994 8.25245 19.8994ZM16.99 24.1632H15.1147V21.447H16.99V24.1632ZM19.794 19.8994C17.2138 19.8994 15.1147 17.8003 15.1147 15.2201C15.1147 12.64 17.2138 10.5409 19.794 10.5409C22.3741 10.5409 24.4732 12.64 24.4732 15.2201C24.4732 17.8003 22.3741 19.8994 19.794 19.8994Z" fill="#E9E9E9"/>
+                  </svg>
+                                 
+              </div>
+              <div class="py-2.5 px-4 border-b border-solid border-[#E9E9E9]/15 pl-10">
+                <div class="flex items-center gap-2 justify-end mb-2">
+                  <span class="text-xs">Total wipes</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                    <path d="M8.5625 6.07812V13H7.10938V6.07812H8.5625ZM7 3.83594C7 3.60156 7.07031 3.40365 7.21094 3.24219C7.35677 3.08073 7.57031 3 7.85156 3C8.1276 3 8.33854 3.08073 8.48438 3.24219C8.63542 3.40365 8.71094 3.60156 8.71094 3.83594C8.71094 4.0599 8.63542 4.2526 8.48438 4.41406C8.33854 4.57031 8.1276 4.64844 7.85156 4.64844C7.57031 4.64844 7.35677 4.57031 7.21094 4.41406C7.07031 4.2526 7 4.0599 7 3.83594Z" fill="#E9E9E9"/>
+                    <circle cx="8" cy="8" r="7.5" stroke="#E9E9E9"/>
+                    </g>
+                    </svg>                    
+                </div>
+                <div class="font-semibold text-xl text-right w-full">
+                  <span>12</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 flex-wrap py-2 text-xs px-4">
+                <span class="text-[#FF4B1E]">+100%</span>
+                compared to the previous reset
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.5">
+                  <path d="M8.5625 6.07812V13H7.10938V6.07812H8.5625ZM7 3.83594C7 3.60156 7.07031 3.40365 7.21094 3.24219C7.35677 3.08073 7.57031 3 7.85156 3C8.1276 3 8.33854 3.08073 8.48438 3.24219C8.63542 3.40365 8.71094 3.60156 8.71094 3.83594C8.71094 4.0599 8.63542 4.2526 8.48438 4.41406C8.33854 4.57031 8.1276 4.64844 7.85156 4.64844C7.57031 4.64844 7.35677 4.57031 7.21094 4.41406C7.07031 4.2526 7 4.0599 7 3.83594Z" fill="#E9E9E9"/>
+                  <circle cx="8" cy="8" r="7.5" stroke="#E9E9E9"/>
+                  </g>
+                  </svg>                  
+              </div>
+            </div>
+            <div class="relative col-span-4 md:col-span-2 lg:col-span-1 bg-[#273257]/80 backdrop-blur-[16px]">
+              <div class="py-2.5 px-4 border-b border-solid border-[#E9E9E9]/15 pl-10">
+                <div class="flex items-center gap-2 justify-end mb-2">
+                  <span class="text-xs">Total wipes</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                    <path d="M8.5625 6.07812V13H7.10938V6.07812H8.5625ZM7 3.83594C7 3.60156 7.07031 3.40365 7.21094 3.24219C7.35677 3.08073 7.57031 3 7.85156 3C8.1276 3 8.33854 3.08073 8.48438 3.24219C8.63542 3.40365 8.71094 3.60156 8.71094 3.83594C8.71094 4.0599 8.63542 4.2526 8.48438 4.41406C8.33854 4.57031 8.1276 4.64844 7.85156 4.64844C7.57031 4.64844 7.35677 4.57031 7.21094 4.41406C7.07031 4.2526 7 4.0599 7 3.83594Z" fill="#E9E9E9"/>
+                    <circle cx="8" cy="8" r="7.5" stroke="#E9E9E9"/>
+                    </g>
+                    </svg>                    
+                </div>
+                <div class="font-semibold text-xl text-right w-full">
+                  <span>No records found</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 flex-wrap py-2 text-xs px-4">
+                <span class="opacity-15">No records found</span>
+              </div>
+            </div>
+            <div class="relative col-span-4 md:col-span-2 lg:col-span-1 bg-[#273257]/80 backdrop-blur-[16px]">
+              <div class="py-2.5 px-4 border-b border-solid border-[#E9E9E9]/15 pl-10">
+                <div class="flex items-center gap-2 justify-end mb-2">
+                  <span class="text-xs">Total wipes</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                    <path d="M8.5625 6.07812V13H7.10938V6.07812H8.5625ZM7 3.83594C7 3.60156 7.07031 3.40365 7.21094 3.24219C7.35677 3.08073 7.57031 3 7.85156 3C8.1276 3 8.33854 3.08073 8.48438 3.24219C8.63542 3.40365 8.71094 3.60156 8.71094 3.83594C8.71094 4.0599 8.63542 4.2526 8.48438 4.41406C8.33854 4.57031 8.1276 4.64844 7.85156 4.64844C7.57031 4.64844 7.35677 4.57031 7.21094 4.41406C7.07031 4.2526 7 4.0599 7 3.83594Z" fill="#E9E9E9"/>
+                    <circle cx="8" cy="8" r="7.5" stroke="#E9E9E9"/>
+                    </g>
+                    </svg>                    
+                </div>
+                <div class="font-semibold text-xl text-right w-full">
+                  <span>No records found</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 flex-wrap py-2 text-xs px-4">
+                <span class="opacity-15">No records found</span>
+              </div>
+            </div>
+            <div class="col-span-4 md:col-span-2 bg-[#273257]/80 backdrop-blur-[16px] px-4 pt-2 pb-4 gap-2 flex flex-col">
+              <span class="text-sm font-semibold">Active Events</span>
+              <div class="flex items-center gap-2">
+                <img class="w-8 h-8 xl:w-10 xl:h-10" src="assets/blackPrinceIcon.png" alt="icon">
+                <div class="flex flex-col gap-1">
+                  <span class="text-[#469AF5] text-xs">Gaze of the Black Prince</span>
+                  <span class="opacity-50 text-xs">Ends 6 days from now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-4 md:col-span-2 bg-[#273257]/80 backdrop-blur-[16px] px-4 pt-2 pb-4 gap-2 flex flex-col self-start">
+              <span class="text-sm font-semibold">Upcoming Events</span>
+            </div>
+            <div class="col-span-4 lg:col-span-2 overflow-x-auto md:overflow-x-visible">
+              <div class="bg-[#273257]/80 backdrop-blur-[16px] p-4 gap-4 flex flex-col mb-4 min-w-[600px] md:min-w-auto">
+                <div class="flex items-center gap-2 justify-between">
+                  <span class="text-sm font-semibold">Siege of Orgrimmar 25 man Heroic 💀 Progress</span>
+                  <div class="flex items-center gap-1">
+                    <label class="relative w-fit h-fit flex custom-input">
+                      <input class="appearance-none border-white rounded-[4px] border-solid border w-4 h-4" type="checkbox">
+                      <span class="absolute transition-all duration-300 opacity-0 left-1/2 top-1/2 rounded-[2px] -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 bg-white"></span>
+                    </label>
+                    <span class="text-xs">Heroic</span>
+                  </div>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] font-light">
+                  <span class="opacity-50 text-[10px]">Guild</span>
+                  <span class="opacity-50 text-[10px]">Killed Bosses</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white overflow-hidden max-w-[22px] w-full relative">
+                      <img class="absolute top-1 w-full bottom left-0 z-[1]" src="assets/bossIcon_immerseus.png" alt="icon">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+              </div>
+              <div class="flex justify-center items-center gap-1">
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 bg-[#273257] border-solid border pr-0.5">
+                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.401855 3L5.59801 2.1936e-08V6L0.401855 3Z" fill="#E9E9E9"/>
+                    </svg>                    
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#B6D64F] text-[#B6D64F] text-center bg-[#273257] border-solid border text-xs">
+                  1                 
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 text-center bg-[#273257] border-solid border text-xs">
+                  2      
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 text-center bg-[#273257] border-solid border text-xs">
+                  3
+                </button>
+                <span class="text-xs">...</span>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 text-center bg-[#273257] border-solid border text-xs">
+                  7
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 bg-[#273257] border-solid border pl-0.5">
+                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.59814 3L0.401992 6L0.401992 3.33818e-07L5.59814 3Z" fill="#E9E9E9"/>
+                    </svg>
+                                    
+                </button>
+              </div>
+            </div>
+            <div class="col-span-4 lg:col-span-2 overflow-x-auto md:overflow-x-visible">
+              <div class="bg-[#273257]/80 backdrop-blur-[16px] p-4 gap-4 flex flex-col mb-4 min-w-[600px] md:min-w-auto">
+                <div class="flex items-center gap-2 justify-between">
+                  <span class="text-sm font-semibold">Siege of Orgrimmar 25 man Heroic 💀 Progress</span>
+                  <div class="flex items-center gap-1">
+                    <label class="relative w-fit h-fit flex custom-input">
+                      <input class="appearance-none border-white rounded-[4px] border-solid border w-4 h-4" type="checkbox">
+                      <span class="absolute transition-all duration-300 opacity-0 left-1/2 top-1/2 rounded-[2px] -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 bg-white"></span>
+                    </label>
+                    <span class="text-xs">Heroic</span>
+                  </div>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] font-light">
+                  <span class="opacity-50 text-[10px]">Guild</span>
+                  <span class="opacity-50 text-[10px]">Killed Bosses</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      <img class="w-full" src="assets/forum/forumBadge_gold.png" alt="badge">
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+                <div class="grid grid-cols-[30%_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="max-w-5 w-full text-xs text-center">
+                      6
+                    </div>
+                    <img class="max-w-4" src="assets/hordeIcon.png" alt="icon">
+                    <span class="text-xs">User name</span>
+                  </div>
+                  <ul class="flex items-center gap-1 flex-wrap">
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                    <li class="rounded-full w-6 h-6 border border-solid border-white relative overflow-hidden">
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                        </svg>                      
+                    </li>
+                  </ul>
+                  <span class="text-xs text-[#B6D64F]">14 / 14</span>
+                </div>
+              </div>
+              <div class="flex justify-center items-center gap-1">
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 bg-[#273257] border-solid border pr-0.5">
+                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.401855 3L5.59801 2.1936e-08V6L0.401855 3Z" fill="#E9E9E9"/>
+                    </svg>                    
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#B6D64F] text-[#B6D64F] text-center bg-[#273257] border-solid border text-xs">
+                  1                 
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 text-center bg-[#273257] border-solid border text-xs">
+                  2      
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 text-center bg-[#273257] border-solid border text-xs">
+                  3
+                </button>
+                <span class="text-xs">...</span>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 text-center bg-[#273257] border-solid border text-xs">
+                  7
+                </button>
+                <button class="flex justify-center items-center h-6 w-6 rounded-full border-[#E9E9E9]/50 bg-[#273257] border-solid border pl-0.5">
+                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.59814 3L0.401992 6L0.401992 3.33818e-07L5.59814 3Z" fill="#E9E9E9"/>
+                    </svg>
+                                    
+                </button>
+              </div>
+            </div>
+            <div class="col-span-4 flex flex-col gap-4">
+              <div class="flex flex-col items-center text-center gap-1">
+                <span class="font-bold font-sec text-[24px]">Previous tier ranking</span>
+                <span class="text-xs text-[#469AF5]">List of the previous tier guild placements</span>
+              </div>
+              <ul class="flex flex-col gap-4">
+                <li class="pb-2 cursor-pointer border-b border-solid border-[#E9E9E9]/15">
+                  <div class="flex items-center gap-1 justify-between">
+                    <span>T15 Guild rankings</span>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <div class="py-2 hidden">
+                    <p class="!text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam eos commodi iste at soluta minima eius facilis saepe vel eaque amet, quae culpa harum voluptatem sapiente, debitis dolorem suscipit atque!</p>
+                  </div>
+                </li>
+                <li class="pb-2 cursor-pointer border-b border-solid border-[#E9E9E9]/15">
+                  <div class="flex items-center gap-1 justify-between">
+                    <span>T15 Guild rankings</span>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 3.50943V4.36226H0V3.50943H8ZM4.4489 0V8H3.48697V0H4.4489Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <div class="py-2 hidden">
+                    <p class="!text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam eos commodi iste at soluta minima eius facilis saepe vel eaque amet, quae culpa harum voluptatem sapiente, debitis dolorem suscipit atque!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </section>
+  </main>
+  <footer class="border-t border-solid py-11 border-[#E9E9E9]/15">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
+        <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
+        <span class="font-sec opacity-50 text-xl">Navigation</span>
+        <a href="#">
+          Navigation
+        </a>
+        <a href="#">
+          Shop
+        </a>
+        <a href="#">
+          FAQ
+        </a>
+        <a href="#">
+          News
+        </a>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
+        <span class="font-sec opacity-50 text-xl">Navigation</span>
+        <a href="#">
+          Navigation
+        </a>
+        <a href="#">
+          Shop
+        </a>
+        <a href="#">
+          FAQ
+        </a>
+        <a href="#">
+          News
+        </a>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
+        <span class="font-sec opacity-50 text-xl">Support</span>
+        <ul class="flex items-center gap-5">
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/tg_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/discord_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/m_icon.svg" alt="icon">
+          </a>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
+        <span class="font-sec opacity-50 text-xl">Subscribe</span>
+        <ul class="flex items-center gap-5">
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/tg_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/discord_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/m_icon.svg" alt="icon">
+          </a>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

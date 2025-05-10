@@ -12,8 +12,8 @@
 <body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/guide/guide_bg.jpg')] bg-cover bg-fixed bg-no-repeat relative after:absolute guide-gradient after:top-0 after:left-0 after:w-full after:h-full after:pointer-events-none bg-blend-luminosity bg-center">
   <header class="absolute top-0 left-0 w-full z-10">
     <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
-<img src="assets/logo.svg" />
-      <nav class="flex items-center gap-10 font-sec">
+      <img src="assets/logo.svg" />
+      <nav class="flex items-center gap-10 font-sec fixed xl:static top-0 left-0 w-full h-full xl:w-fit hidden">
         <li>
           <a href="#" class="text-xl">
             How to begin?
@@ -71,79 +71,79 @@
     </div>
   </header>
   <main class="flex-1">
-    <section class="pt-[100px] pb-40">
+    <section class="overflow-hidden pt-[100px] pb-40">
       <div class="container z-[1]">
-        <div class="flex items-center justify-between gap-4 mb-11 relative">
+        <div class="flex flex-col xl:flex-row items-center justify-between gap-4 mb-11 relative ">
           <div class="max-w-[684px] w-full">
-            <h1 class="font-sec text-4xl font-bold mb-[clamp(32px,3vw,48px)]">
+            <h1 class="font-sec text-3xl md:text-4xl font-bold mb-[clamp(32px,3vw,48px)]">
               How to begin?
             </h1>
-            <div class="flex items-center xl:gap-x-11 justify-between gap-x-8 max-w-[684px] w-full">
-              <div class="flex flex-col gap-y-6 xl:gap-y-10 max-w-[320px] w-full">
+            <div class="flex items-center xl:gap-x-11 justify-between gap-x-6 md:gap-x-8 max-w-[684px] w-full">
+              <div class="flex flex-col gap-y-10 md:gap-y-6 xl:gap-y-10 max-w-[320px] w-full">
                 <div class="flex flex-col gap-5 xl:gap-8 col-span-2">
-                  <div class="flex items-end gap-4">
-                    <span class="font-sec text-6xl font-medium">1</span>
-                    <span class="font-sec text-[19px] block leading-[200%]">
+                  <div class="flex items-end gap-2 md:gap-4">
+                    <span class="font-sec leading-[100%]  text-3xl lg:text-6xl font-medium">1</span>
+                    <span class="font-sec text-sm md:text-base lg:text-[19px] block leading-[100%] md:leading-[200%]">
                       Create a Stormforge account
                     </span>
                   </div>
-                  <p class="!leading-[120%] !text-base">
+                  <p class="max-w-[240px] md:max-w-[auto] !leading-[120%] !text-xs md:!text-sm lg!text-base">
                     First, you have to create your WarCrown account. You can do that by clicking the button below
                   </p>
-                  <a href="#" class="w-fit min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-6">
+                  <a href="#" class="w-fit min-h-10 lg:min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-2 md:px-6 text-sm lg:text-base w-full md:w-fit">
                     Create account
                   </a>
                 </div>
                 <div class="flex flex-col gap-5 xl:gap-8 max-w-[320px]">
-                  <div class="flex items-end gap-4">
-                    <span class="font-sec text-6xl font-medium">3</span>
-                    <span class="font-sec text-[19px] block leading-[200%]">
+                  <div class="flex items-end gap-2 md:gap-4">
+                    <span class="font-sec leading-[100%]  text-3xl lg:text-6xl font-medium">3</span>
+                    <span class="font-sec text-sm md:text-base lg:text-[19px] block leading-[100%] md:leading-[200%]">
                       Download game client
                     </span>
                   </div>
-                  <p class="!leading-[120%] !text-base">
+                  <p class="max-w-[240px] md:max-w-[auto] !leading-[120%] !text-xs md:!text-sm lg!text-base">
                     Download the client you want to play.
                   </p>
                 </div>
               </div>
               <div class="flex flex-col gap-5 xl:gap-8 max-w-[320px] w-full">
-                <div class="flex items-end gap-4">
-                  <span class="font-sec text-6xl font-medium">2</span>
-                  <span class="font-sec text-[19px] block leading-[200%]">
+                <div class="flex items-end gap-2 md:gap-4">
+                  <span class="font-sec leading-[100%]  text-3xl lg:text-6xl font-medium">2</span>
+                  <span class="font-sec text-sm md:text-base lg:text-[19px] block leading-[100%] md:leading-[200%]">
                     Confirm your e-mail address
                   </span>
                 </div>
-                <p class="!leading-[120%] !text-base">
+                <p class="max-w-[240px] md:max-w-[auto] !leading-[120%] !text-xs md:!text-sm lg!text-base">
                   To complete the registration  process, you need to confirm your e-mail address. Go to your inbox and  find the e-mail with the activation link!
                 </p>
-                <a href="#" class="w-fit min-h-[52px] flex justify-center items-center text-center bg-[#469AF5] text-[#152045] font-medium px-6">
+                <a href="#" class="w-fit min-h-10 lg:min-h-[52px] flex justify-center items-center text-center bg-[#469AF5] text-[#152045] font-medium px-2 md:px-6 text-sm lg:text-base w-full md:w-fit">
                   Resend verification code
                 </a>
               </div>
             </div>
           </div>
-          <div class="max-w-[40%] absolute right-0 top-1/2 -translate-y-1/2 w-full h-auto">
-            <img src="assets/guide/orc-character.png" alt="image">
-            <button class="min-h-[96px] max-w-[334px] w-full flex justify-center items-center text-center gap-2 bg-[linear-gradient(to_right,#152045_0%,_#273257_100%)] after:absolute after:top-0 after:left-0 after:w-full after:h-full bg-100 after:pointer-events-none after:bg-[url('assets/guide/download_frame.png')] bg-pseudo-100 after:bg-no-repeat absolute left-[40%] -translate-x-1/2 bottom-0 after:scale-105">
-              <img src="assets/guide/w-logo-crown.svg" alt="icon">
-              <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="max-w-[540px] mx-auto xl:max-w-[40%] xl:absolute right-0 top-1/2 xl:-translate-y-1/2 w-full h-auto">
+            <img class="translate-x-10 xl:translate-x-0" src="assets/guide/orc-character.png" alt="image">
+            <button class="min-h-[56px] md:min-h-[96px] max-w-[240px] md:max-w-[334px] w-full flex justify-center items-center text-center gap-2 bg-[linear-gradient(to_right,#152045_0%,_#273257_100%)] after:absolute after:top-0 after:left-0 after:w-full after:h-full bg-100 after:pointer-events-none after:bg-[url('assets/guide/download_frame.png')] bg-pseudo-100 after:bg-no-repeat absolute left-1/2 xl:left-[40%] -translate-x-1/2 bottom-0 after:scale-105">
+              <img class="max-w-8 md:max-w-[auto]" src="assets/guide/w-logo-crown.svg" alt="icon">
+              <svg class="hidden md:block" width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13.6861 16.0615C14.1185 16.0615 14.4703 15.7178 14.4703 15.2952L14.4703 12.2871C14.463 11.2916 12.9164 11.2845 12.9091 12.2871V14.5288H2.0316V12.2871C2.01693 11.2845 0.485011 11.2845 0.470337 12.2871V15.2952C0.470337 15.7178 0.822155 16.0615 1.25464 16.0615H13.6861Z" fill="#E9E9E9"/>
                 <path d="M11.9342 9.00694C12.6525 8.29786 11.5531 7.22356 10.8274 7.92547L8.25464 10.4393V0.827868C8.25464 0.40533 7.90282 0.0615234 7.47034 0.0615234C7.0379 0.0615234 6.68604 0.40533 6.68604 0.827868V10.4393L4.1133 7.92547C3.80541 7.6318 3.31432 7.6318 3.00648 7.92547C2.70593 8.22626 2.70593 8.7061 3.00648 9.00693L6.9206 12.8243C7.21381 13.1179 7.72691 13.1251 8.02008 12.8243L11.9342 9.00694Z" fill="#E9E9E9"/>
                 </svg>
-                <span class="font-medium">Download launcher</span>                
+                <span class="text-sm md:text-base font-medium">Download launcher</span>                
             </button>
           </div>
         </div>
-        <div class="grid grid-cols-2 gap-x-5">
+        <div class="lg:grid flex flex-col lg:grid-cols-2 gap-x-5 gap-y-8">
           <div>
-            <div class="w-full min-h-[200px] xl:min-h-[240px] relative bg-cover bg-[url('assets/guide/guide-block-1_bg.jpg')] mb-6 p-5 xl:p-6 flex items-center justify-end after:absolute after:h-[45%] after:left-0 after:bottom-0 after:bg-[linear-gradient(to_bottom,_rgba(21,32,69,0)_0%,_#152045_100%)] after:w-full after:backdrop-blur-[2px] after:pointer-events-none flex-col">
+            <div class="w-full min-h-[200px] xl:min-h-[240px] relative bg-cover bg-[url('assets/guide/guide-block-1_bg.jpg')] mb-4 xl:mb-6 p-4 md:p-5 xl:p-6 flex items-center justify-end after:absolute after:h-[45%] after:left-0 after:bottom-0 after:bg-[linear-gradient(to_bottom,_rgba(21,32,69,0)_0%,_#152045_100%)] after:w-full after:backdrop-blur-[2px] after:pointer-events-none flex-col">
               <div class="flex items-center w-full relative z-[1] justify-between">
                 <div class="flex flex-col gap-1.5">
-                  <span class="font-bold font-sec text-2xl">Netherwing / Outland</span>
-                  <span class="text-xl">The Burning Crusade</span>
+                  <span class="font-bold font-sec text-sm md:text-xl xl:text-2xl">Netherwing / Outland</span>
+                  <span class="text-xs md:text-sm xl:text-xl">The Burning Crusade</span>
                 </div>
-                <a href="#" class="w-fit min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-6 gap-2">
-                  <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="#" class="w-fit min-h-10 md:min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-2 md:px-6 gap-1 md:gap-2 text-sm md:text-base">
+                  <svg class="hidden xl:block" width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.2157 16.1875C13.6482 16.1875 14 15.8437 14 15.4212L14 12.4131C13.9927 11.4176 12.4461 11.4104 12.4388 12.4131V14.6548H1.56126V12.4131C1.54659 11.4104 0.0146744 11.4104 0 12.4131V15.4212C0 15.8437 0.351818 16.1875 0.784302 16.1875H13.2157Z" fill="#152045"/>
                     <path d="M11.4639 9.13292C12.1822 8.42384 11.0827 7.34954 10.3571 8.05144L7.7843 10.5653V0.953844C7.7843 0.531306 7.43248 0.1875 7 0.1875C6.56756 0.1875 6.2157 0.531306 6.2157 0.953844V10.5653L3.64296 8.05144C3.33507 7.75778 2.84398 7.75778 2.53614 8.05144C2.2356 8.35223 2.2356 8.83208 2.53614 9.13291L6.45026 12.9502C6.74347 13.2439 7.25657 13.2511 7.54974 12.9502L11.4639 9.13292Z" fill="#152045"/>
                     </svg>
@@ -156,7 +156,7 @@
                 </a>
               </div>
             </div>
-            <div class="flex items-center gap-[clamp(24px,2.5vw,40px)]">
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-y-3 gap-x-[clamp(24px,2.5vw,40px)]">
               <p class="text-sm xl:!text-base">
                 <span class="text-[#469AF5]">Supported OS:</span> Windows 7, 8, 10 Applies to all game clients.
               </p>
@@ -166,14 +166,14 @@
             </div>
           </div>
           <div>
-            <div class="w-full min-h-[200px] xl:min-h-[240px] relative bg-cover bg-[url('assets/guide/guide-block-2_bg.jpg')] mb-6 p-5 xl:p-6 flex items-center justify-end after:absolute after:h-[45%] after:left-0 after:bottom-0 after:bg-[linear-gradient(to_bottom,_rgba(21,32,69,0)_0%,_#152045_100%)] after:w-full after:backdrop-blur-[2px] after:pointer-events-none flex-col">
+            <div class="w-full min-h-[200px] xl:min-h-[240px] relative bg-cover bg-[url('assets/guide/guide-block-2_bg.jpg')] mb-4 xl:mb-6 p-4 md:p-5 xl:p-6 flex items-center justify-end after:absolute after:h-[45%] after:left-0 after:bottom-0 after:bg-[linear-gradient(to_bottom,_rgba(21,32,69,0)_0%,_#152045_100%)] after:w-full after:backdrop-blur-[2px] after:pointer-events-none flex-col">
               <div class="flex items-center w-full relative z-[1] justify-between">
                 <div class="flex flex-col gap-1.5">
-                  <span class="font-bold font-sec text-2xl">Netherwing / Outland</span>
-                  <span class="text-xl">The Burning Crusade</span>
+                  <span class="font-bold font-sec text-sm md:text-xl xl:text-2xl">Netherwing / Outland</span>
+                  <span class="text-xs md:text-sm xl:text-xl">The Burning Crusade</span>
                 </div>
-                <a href="#" class="w-fit min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-6 gap-2">
-                  <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="#" class="w-fit min-h-10 md:min-h-[52px] flex justify-center items-center text-center bg-[#B6D64F] text-[#152045] font-medium px-2 md:px-6 gap-1 md:gap-2 text-sm md:text-base">
+                  <svg class="hidden xl:block" width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.2157 16.1875C13.6482 16.1875 14 15.8437 14 15.4212L14 12.4131C13.9927 11.4176 12.4461 11.4104 12.4388 12.4131V14.6548H1.56126V12.4131C1.54659 11.4104 0.0146744 11.4104 0 12.4131V15.4212C0 15.8437 0.351818 16.1875 0.784302 16.1875H13.2157Z" fill="#152045"/>
                     <path d="M11.4639 9.13292C12.1822 8.42384 11.0827 7.34954 10.3571 8.05144L7.7843 10.5653V0.953844C7.7843 0.531306 7.43248 0.1875 7 0.1875C6.56756 0.1875 6.2157 0.531306 6.2157 0.953844V10.5653L3.64296 8.05144C3.33507 7.75778 2.84398 7.75778 2.53614 8.05144C2.2356 8.35223 2.2356 8.83208 2.53614 9.13291L6.45026 12.9502C6.74347 13.2439 7.25657 13.2511 7.54974 12.9502L11.4639 9.13292Z" fill="#152045"/>
                     </svg>
@@ -186,7 +186,7 @@
                 </a>
               </div>
             </div>
-            <div class="flex items-center gap-[clamp(24px,2.5vw,40px)]">
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-y-3 gap-x-[clamp(24px,2.5vw,40px)]">
               <p class="text-sm xl:!text-base">
                 <span class="text-[#469AF5]">Supported OS:</span> Windows 7, 8, 10 Applies to all game clients.
               </p>
@@ -199,13 +199,13 @@
       </div>
     </section>
   </main>
-  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15 relative z-[5]">
-    <div class="container flex items-start gap-4 justify-between">
-      <div class="flex flex-col gap-10 max-w-[294px]">
-        <img src="" alt="">
+  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
         <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -220,7 +220,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -235,7 +235,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Support</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
@@ -249,7 +249,7 @@
           </a>
         </ul>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Subscribe</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">

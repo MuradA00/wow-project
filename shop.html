@@ -12,8 +12,8 @@
 <body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/shop/shop_bg.png')] bg-[100%_auto] bg-top-left bg-no-repeat relative bg-blend-luminosity">
   <header class="absolute top-0 left-0 w-full z-10 bg-[#152045]">
     <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
-<img src="assets/logo.svg" />
-      <nav class="flex items-center gap-10 font-sec">
+      <img src="assets/logo.svg" />
+      <nav class="flex hidden items-center gap-10 font-sec">
         <li>
           <a href="#" class="text-xl">
             How to begin?
@@ -70,13 +70,153 @@
       </button>
     </div>
   </header>
+  <div class="fixed top-0 left-0 w-full h-full z-20 bg-[#152045]/80">
+    <div class="p-4 h-full w-full flex justify-center items-start xl:items-center">
+      <div class="max-w-[1078px] w-full h-full md:h-[auto] overflow-y-auto no-scrollbar">
+        <div class="lg:grid flex flex-col grid-cols-[232px_1fr] item-start gap-4">
+          <div>
+            <div class="p-4 relative flex flex-col min-h-[240px] lg:min-h-[350px] justify-between bg-cover bg-center bg-[url('assets/shop/shopItemBg_1.jpg')] bg-no-repeat after:absolute after:w-full after:pointer-events-none after:bottom-0 after:h-[120px] after:left-0 shop-item-gradient [&amp;>*]:z-[1]">
+              <div class="flex justify-end">
+                <button class="min-h-[34px] flex justify-center items-center text-center gap-1 font-sec font-sec rounded-[16px] bg-[#469AF5] px-4 text-[#152045] [&amp;>svg]:fill-[currentColor]">
+                  <img class="w-4 h-4" src="assets/calendarIcon.svg" alt="icon">
+                  <span>1 day</span>
+                </button>
+              </div>
+              <div class="flex flex-col gap-2">
+                <div class="flex flex-col text-xs gap-1">
+                  <span class="font-bold">Experience Boost (24H)</span>
+                  <span class="opacity-80">100% Increased Experience</span>
+                </div>
+                <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&amp;>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
+                  <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
+                  <span class="">60</span>
+                </button>
+              </div>
+            </div>
+            <button class="min-h-10 flex justify-center items-center text-center px-4 w-full bg-[#B6D64F] text-[#152045] font-medium text-sm md:text-xs">
+              Buy for yourself
+            </button>
+          </div>
+          <div class="bg-[#273257] p-4 lg:p-6 xl:p-8 flex flex-col gap-4 lg:gap-6 xl:gap-8">
+            <div class="flex flex-row items-center gap-4 justify-between">
+              <span class="font-semibold text-[24px]">Requirements</span>
+              <button>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1079_43031)">
+                  <rect width="20.211" height="2.0211" rx="1.01055" transform="matrix(0.701015 -0.713146 0.701015 0.713146 0.415039 14.4141)" fill="#E9E9E9"/>
+                  <rect width="20.211" height="2.0211" rx="1.01055" transform="matrix(0.701015 0.713146 -0.701015 0.713146 1.41699 0.144531)" fill="#E9E9E9"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1079_43031">
+                  <rect width="16" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg> 
+              </button>
+            </div>             
+            <div class="flex items-center gap-4">
+              <span class="text-sm xl:text-base">Available on:</span>
+              <div class="bg-[#152045] min-h-9 flex items-center justify-center px-4 text-sm xl:text-base gap-1">
+                <img class="max-w-[30px]" src="assets/shop/bgIcon.png" alt="icon"> Netherwing
+              </div>
+            </div>
+            <div class="flex md:flex-row flex-col md:items-center gap-4">
+              <span class="font-semibold text-2xl">Description:</span>
+              <div class="flex items-center gap-4">
+                <button class="min-h-9 bg-[#469AF5] flex justify-center items-center text-center text-center px-4">
+                  Burning Crusade
+                </button>
+                <button class="min-h-9 flex justify-center items-center text-center text-center px-4">
+                  Mits of Pandoria
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <span class="text-[#FFB846]">This boost applies ONLY to characters on the selected realm</span>
+              <ul class="text-sm xl:text-base !pl-6">
+                <li class="!list-disc">
+                  Keep in mind that reputation boosts require you to log out of your account in-game to activate.
+                </li>
+                <li class="!list-disc">
+                  The duration of reputation is measured in real time, not in-game time.
+                </li>
+                <li class="!list-disc">
+                  Check the duration of your reputation boost using “.services” command.
+                </li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-6">
+              <span class="text-2xl font-semibold">FAQ</span>
+              <ul class="flex flex-col gap-4">
+                <li class="flex flex-col gap-4 pb-3 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+                  <div class="flex items-center gap-4 pr-2 w-full justify-between">
+                    <span class="text-sm xl:text-base">Item refund</span>
+                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <p class="!text-sm xl:!text-base leading-[120%] hidden">
+                    Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
+                  </p>
+                </li>
+                <li class="flex flex-col gap-4 pb-3 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+                  <div class="flex items-center gap-4 pr-2 w-full justify-between">
+                    <span class="text-sm xl:text-base">Required gold</span>
+                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <p class="!text-sm xl:!text-base leading-[120%] hidden">
+                    Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
+                  </p>
+                </li>
+                <li class="flex flex-col gap-4 pb-3 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+                  <div class="flex items-center gap-4 pr-2 w-full justify-between">
+                    <span class="text-sm xl:text-base">Gold discount</span>
+                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <p class="!text-sm xl:!text-base leading-[120%] hidden">
+                    Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
+                  </p>
+                </li>
+                <li class="flex flex-col gap-4 pb-3 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+                  <div class="flex items-center gap-4 pr-2 w-full justify-between">
+                    <span class="text-sm xl:text-base">I used an item and i Want to refund it</span>
+                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <p class="!text-sm xl:!text-base leading-[120%] hidden">
+                    Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
+                  </p>
+                </li>
+                <li class="flex flex-col gap-4 pb-3 border-b border-solid border-[#E9E9E9]/15 cursor-pointer transition-colors duration-200 hover:border-[#E9E9E9]/30">
+                  <div class="flex items-center gap-4 pr-2 w-full justify-between">
+                    <span class="text-sm xl:text-base">I only see a few realms</span>
+                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 6.5L0.535898 0.5L7.4641 0.5L4 6.5Z" fill="#E9E9E9"/>
+                      </svg>                      
+                  </div>
+                  <p class="!text-sm xl:!text-base leading-[120%] hidden">
+                    Our team has worked on private servers for over a decade. We offer stability, safety, experience and dedication unrivalled in the scene.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <main class="flex-1">
     <section class="pt-[100px] pb-20">
       <div class="container z-[1] !max-w-[calc(1470px+32px)]">
         <div class="pl-10 mb-6.5 font-bold">
-          <h1 class="font-sec xl:text-3xl">Shop</h1>
+          <h1 class="font-sec text-2xl xl:text-3xl">Shop</h1>
         </div>
-        <div class="grid grid-cols-[260px_1fr] gap-5 items-start">
+        <div class="flex flex-col [&>*]:w-full lg:grid grid-cols-[260px_1fr] gap-x-5 gap-y-8 items-start">
           <div>
             <div class="min-h-[54px] flex items-center justify-center text-center gap-2 bg-[#B6D64F] text-[#152045]">
               <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +227,7 @@
                 </svg>                
               0 WarCoins
             </div>
-            <ul class="bg-[#273257] flex flex-col px-[clamp(24px,2.5vw,40px)] pb-4.5 mb-6">
+            <ul class="bg-[#273257] flex flex-col px-4 lg:px-[clamp(24px,2.5vw,40px)] pb-4.5 mb-6">
               <li class="flex items-center min-h-[56px] gap-1 text-sm xl:text-base font-sec border-b border-solid border-[#E9E9E9]/30">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_1090_42208)">
@@ -140,8 +280,8 @@
                 </div>
               </li>
             </ul>
-            <div class="px-[clamp(24px,2.5vw,40px)]">
-              <div class="flex flex-col gap-4 mb-10">
+            <div class="grid grid-cols-2 lg:block gap-x-3 px-4 lg:px-[clamp(24px,2.5vw,40px)]">
+              <div class="flex flex-col gap-4 lg:mb-10">
                 <div class="flex items-center gap-2 justify-between">
                   <span class="font-semibold text-xl">Types</span>
                   <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -216,7 +356,7 @@
             </div>
           </div>
           <div class="flex flex-col gap-4">
-            <div class="flex items-center justify-between min-h-20 px-4 bg-[#5E4BB2]">
+            <div class="flex flex-col lg:flex-row gap-y-4 py-4 lg:py-0 lg:items-center justify-between min-h-20 px-4 bg-[#5E4BB2] bg-[url('assets/shop/shopBlock_bg.jpg')] bg-no-repeat bg-cover bg-top">
               <div class="flex items-center gap-2 [&>span]:leading-[100%]">
                 <img class="w-10 h-10 aspect-square" src="assets/greenLogo.png" alt="logo">
                 <div class="flex flex-col gap-">
@@ -242,7 +382,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -260,7 +400,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -278,7 +418,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -296,7 +436,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -314,7 +454,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -332,7 +472,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -350,7 +490,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -368,7 +508,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -386,7 +526,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -404,7 +544,7 @@
                     <span class="opacity-80">100% Increased Experience</span>
                   </div>
                   <button class="min-h-9 flex justify-center items-center text-center bg-[#273257] gap-1 [&>svg]:fill-[currenColor] text-[#FFB846] font-semibold text-sm xl:text-base">
-                    <img class="w-5 h-5" src="assets/warCoin.svg" alt="icon">
+                    <img class="max-w-6" src="assets/warCoin.svg" alt="icon">
                     <span class="">60</span>
                   </button>
                 </div>
@@ -415,13 +555,13 @@
       </div>
     </section>
   </main>
-  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15 relative z-[5]">
-    <div class="container flex items-start gap-4 justify-between">
-      <div class="flex flex-col gap-10 max-w-[294px]">
-        <img src="" alt="">
+  <footer class="border-t border-solid py-11 border-[#E9E9E9]/15">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
         <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -436,7 +576,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -451,7 +591,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Support</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
@@ -465,7 +605,7 @@
           </a>
         </ul>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Subscribe</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">

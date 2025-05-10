@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>War Crown Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi:regular,500,600,700" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/forum/forum_bg.png')] bg-[100%_auto] bg-top-left bg-no-repeat relative bg-blend-luminosity bg-fixed">
+  <header class="absolute top-0 left-0 w-full z-10 bg-[#152045]">
+    <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
+      <img src="assets/logo.svg" />
+      <nav class="flex items-center gap-10 font-sec hidden">
+        <li>
+          <a href="#" class="text-xl">
+            How to begin?
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            News
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Forum
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Shop
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            Logs
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-xl">
+            FAQ
+          </a>
+        </li>
+      </nav>
+      <div class="flex items-center gap-10 font-sec text-xl">
+        <div class="flex items-center gap-2 [&>span]:leading-[100%]">
+          <span>Region:</span>
+          <div class="flex items-center gap-1">
+            <span class="font-semibold">USA</span>
+            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.62695 5L0.0288777 0.5L5.22503 0.5L2.62695 5Z" fill="#E9E9E9"/>
+              </svg>
+          </div>
+        </div>
+        <div class="w-9 h-6">
+          <img src="assets/usa_flag.svg" alt="flag">
+        </div>
+      </div>
+      <button class="text-sm font-medium text-[#152045] pt-2 min-w-[64px] flex flex-col gap-1 bg-100 items-center text-center">
+        <img 
+          src="assets/log-out_bg.png" 
+          class="h-[88px] absolute top-0 z-[-1]" 
+          alt="bg"
+        >
+        <img class="w-8 h-8" src="assets/orc-icon.svg" alt="icon">
+        <span>log out</span>
+      </button>
+    </div>
+  </header>
+  <main class="flex-1">
+    <section class="pt-[100px] pb-20">
+      <div class="container z-[1]">
+        <div class="flex items-center mb-8 gap-6 xl:gap-10">
+          <h1 class="text-2xl xl:text-3xl font-bold font-sec">Forum</h1>
+          <span class="block h-6 w-[1px] bg-[#E9E9E9] opacity-15"></span>
+          <span class="text-sm xl:text-base">Official </span>
+        </div>
+        <div class="flex flex-col lg:grid grid-cols-[184px_1fr] lg:gap-5 xl:gap-10 items-start gap-y-6">
+          <div class="bg-[#202B50] font-sec text-base xl:text-xl py-2 lg:py-4 xl:py-6 px-4 lg:px-6 xl:px-10 flex flex-row lg:flex-col gap-4 w-full">
+            <a href="#" class="pb-1 lg:pb-4 border-b border-solid border-[#E9E9E9]/15 text-[#469AF5]">
+              Official 
+            </a>
+            <a href="#">
+              Community
+            </a>
+            <a href="#">
+              Other
+            </a>
+          </div>
+          <div class="flex w-full overflow-x-auto">
+            <ul class="min-w-[760px] flex flex-col w-full">
+              <li class="p-3 lg:p-5 xl:p-6 backdrop-blur-[16px] grid grid-cols-[25%_1fr_auto_auto] items-center gap-6 xl:gap-10 bg-[#273257]/80 border-b border-solid border-[#444D6D]">
+                <div class="flex items-center gap-4">
+                  <img class="w-8 h-8 xl:w-10 xl:h-10" src="assets/forum/forumGuideIcon.png" alt="icon">
+                  <div class="flex flex-col">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">
+                      Announcement
+                    </span>
+                    <span class="text-xs lg:text-sm opacity-50">What the topic is about</span>
+                  </div>
+                </div>
+                <div class="flex flex-col ">
+                  <span class="line-clamp-1 max-w-[480px] text-sm xl:text-base">Fresh TBC Server "Netherwing" - Release on February 27th. Full...</span>
+                  <span class="opacity-50 text-xs lg:text-sm">Last post</span>
+                </div>
+                <div class="flex items-center gap-6 xl:gap-10">
+                  <div class="flex flex-col gap-.5 items-center text-center">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">5</span>
+                    <span class="text-xs lg:text-sm opacity-50">topics</span>
+                  </div>
+                  <div class="flex flex-col gap-.5 items-center text-center">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">10</span>
+                    <span class="text-xs lg:text-sm opacity-50">posts</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-2 min-w-[142px] lg:min-w-[166px]">
+                  <div class="w-8 h-8 xl:w-10 xl:h-10">
+                    <img src="assets/userIcon_mocked.png" alt="icon">
+                  </div>
+                  <div class="flex flex-col text-sm xl:text-base">
+                    <span class="text-[#469AF5]">CatWoman</span>
+                    <span class="text-xs lg:text-sm opacity-50">A moment ago</span>
+                  </div>
+                </div>
+              </li>
+              <li class="p-3 lg:p-5 xl:p-6 backdrop-blur-[16px] grid grid-cols-[25%_1fr_auto_auto] items-center gap-6 xl:gap-10 bg-[#152045]/80 border-b border-solid border-[#444D6D]">
+                <div class="flex items-center gap-4">
+                  <img class="w-8 h-8 xl:w-10 xl:h-10" src="assets/forum/forumWeaponsIcon.png" alt="icon">
+                  <div class="flex flex-col">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">
+                      Announcement
+                    </span>
+                    <span class="text-xs lg:text-sm opacity-50">What the topic is about</span>
+                  </div>
+                </div>
+                <div class="flex flex-col ">
+                  <span class="line-clamp-1 max-w-[480px] text-sm xl:text-base">Fresh TBC Server "Netherwing" - Release on February 27th. Full...</span>
+                  <span class="opacity-50 text-xs lg:text-sm">Last post</span>
+                </div>
+                <div class="flex items-center gap-6 xl:gap-10">
+                  <div class="flex flex-col gap-.5 items-center text-center">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">5</span>
+                    <span class="text-xs lg:text-sm opacity-50">topics</span>
+                  </div>
+                  <div class="flex flex-col gap-.5 items-center text-center">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">10</span>
+                    <span class="text-xs lg:text-sm opacity-50">posts</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-2 min-w-[142px] lg:min-w-[166px]">
+                  <div class="w-8 h-8 xl:w-10 xl:h-10">
+                    <img src="assets/userIcon_mocked.png" alt="icon">
+                  </div>
+                  <div class="flex flex-col text-sm xl:text-base">
+                    <span class="text-[#469AF5]">CatWoman</span>
+                    <span class="text-xs lg:text-sm opacity-50">48 min. ago</span>
+                  </div>
+                </div>
+              </li>
+              <li class="p-3 lg:p-5 xl:p-6 backdrop-blur-[16px] grid grid-cols-[25%_1fr_auto_auto] items-center gap-6 xl:gap-10 bg-[#273257]/80">
+                <div class="flex items-center gap-4">
+                  <img class="w-8 h-8 xl:w-10 xl:h-10" src="assets/forum/forumSpellIcon.png" alt="icon">
+                  <div class="flex flex-col">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">
+                      Announcement
+                    </span>
+                    <span class="text-xs lg:text-sm opacity-50">What the topic is about</span>
+                  </div>
+                </div>
+                <div class="flex flex-col ">
+                  <span class="line-clamp-1 max-w-[480px] text-sm xl:text-base">Fresh TBC Server "Netherwing" - Release on February 27th. Full...</span>
+                  <span class="opacity-50 text-xs lg:text-sm">Last post</span>
+                </div>
+                <div class="flex items-center gap-6 xl:gap-10">
+                  <div class="flex flex-col gap-.5 items-center text-center">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">5</span>
+                    <span class="text-xs lg:text-sm opacity-50">topics</span>
+                  </div>
+                  <div class="flex flex-col gap-.5 items-center text-center">
+                    <span class="font-semibold text-base lg:text-lg xl:text-xl">10</span>
+                    <span class="text-sm opacity-50">posts</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-2 min-w-[142px] lg:min-w-[166px]">
+                  <div class="w-8 h-8 xl:w-10 xl:h-10">
+                    <img src="assets/userIcon_mocked.png" alt="icon">
+                  </div>
+                  <div class="flex flex-col text-sm xl:text-base">
+                    <span class="text-[#469AF5]">CatWoman</span>
+                    <span class="text-xs lg:text-sm opacity-50">A moment ago</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>   
+    </section>
+  </main>
+  <footer class="border-t border-solid py-11 border-[#E9E9E9]/15">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
+        <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
+        <span class="font-sec opacity-50 text-xl">Navigation</span>
+        <a href="#">
+          Navigation
+        </a>
+        <a href="#">
+          Shop
+        </a>
+        <a href="#">
+          FAQ
+        </a>
+        <a href="#">
+          News
+        </a>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
+        <span class="font-sec opacity-50 text-xl">Navigation</span>
+        <a href="#">
+          Navigation
+        </a>
+        <a href="#">
+          Shop
+        </a>
+        <a href="#">
+          FAQ
+        </a>
+        <a href="#">
+          News
+        </a>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
+        <span class="font-sec opacity-50 text-xl">Support</span>
+        <ul class="flex items-center gap-5">
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/tg_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/discord_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/m_icon.svg" alt="icon">
+          </a>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
+        <span class="font-sec opacity-50 text-xl">Subscribe</span>
+        <ul class="flex items-center gap-5">
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/tg_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/discord_icon.svg" alt="icon">
+          </a>
+          <a href="#" target="_blank" class="w-6 h-6">
+            <img src="assets/socials/m_icon.svg" alt="icon">
+          </a>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -13,7 +13,7 @@
     <header class="absolute top-0 left-0 z-10 w-full bg-[#152045]">
       <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
   <img src="assets/logo.svg" />
-        <nav class="flex items-center gap-10 font-sec">
+        <nav class="flex hidden items-center gap-10 font-sec">
           <li>
             <a href="#" class="text-xl">
               How to begin?
@@ -76,13 +76,13 @@
           <source src="assets/main/video_bg.mp4" type="video/mp4">
         </video>
         <div class="container">
-          <div class="min-h-[100dvh] flex pt-[100px] xl:pt-[120px] pb-10">
-            <div class="flex-1 flex flex-col relative z-[1] items-start flex-col w-full max-w-[754px] gap-6">
-              <span class="ml-[94px] block bg-[#E9E9E9] w-[2px] flex-1"></span>
+          <div class="min-h-[100dvh] flex flex-col lg:flex-row pt-[100px] xl:pt-[120px] pb-10">
+            <div class="flex-1 flex flex-col relative z-[1] items-center lg:items-start flex-col w-full max-w-full lg:max-w-[600px] xl:max-w-[754px] gap-6 justify-center">
+              <span class="hidden ml-[94px] lg:block bg-[#E9E9E9] w-[2px] flex-1"></span>
               <div class="flex flex-col gap-6 mx-auto">
-                <img class="w-full" src="assets/logo.svg" alt="logo">
-                <div class="flex items-center gap-6 mx-auto max-w-[85%]">
-                  <p>where legends are forged, heroes rise, and Azeroth’s greatest battles await!</p>
+                <img class="self-center lg:self-auto w-full max-w-[400px] lg:max-w-full" src="assets/logo.svg" alt="logo">
+                <div class="flex flex-col lg:flex-row items-center gap-6 mx-auto max-w-[85%]">
+                  <p class="!text-base lg:!text-sm text-center lg:text-left">where legends are forged, heroes rise, and Azeroth’s greatest battles await!</p>
                   <div class="flex items-center gap-4 shrink-0">
                     <a href="#" class="min-h-[52px] flex justify-center items-center text-center font-medium w-fit text-[#152045] px-6 bg-[#B6D64F]">
                       Join game
@@ -93,8 +93,8 @@
                   </div>
                 </div>
               </div>
-              <span class="ml-[94px] block bg-[#E9E9E9] w-[2px] flex-1"></span>
-              <ul class="ml-10 flex items-center gap-5">
+              <span class="hidden ml-[94px] lg:block bg-[#E9E9E9] w-[2px] flex-1"></span>
+              <ul class="lg:ml-10 flex items-center gap-5">
                 <a href="#" target="_blank" class="w-6 h-6 transition-opacity duration-200 opacity-50 hover:opacity-100">
                   <img src="assets/socials/tg_icon.svg" alt="icon">
                 </a>
@@ -106,73 +106,73 @@
                 </a>
               </ul>
             </div>
-            <ul class="flex flex-col gap-3 absolute top-1/2 z-[1] -translate-y-1/2 right-2">
-              <li class="flex flex-col gap-2 pr-4 pl-6 min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
+            <ul class="grid grid-cols-2 md:grid-cols-4 lg:flex flex-row lg:flex-col gap-1 md:gap-3 lg:absolute top-1/2 z-[1] lg:-translate-y-1/2 right-2 static">
+              <li class="flex flex-col gap-2 pr-4 pl-4 xl:pl-6 min-h-[68px] xl:min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
                 <span class="absolute top-0 left-0 h-full w-2 bg-[#FFB846]"></span>
-                <div class="flex items-center gap-8">
-                  <span class="font-sec text-xl xl:text-2xl font-sec">World name</span>
-                  <ul class="flex items-center gap-4 text-sm lg:text-base xl:text-xl">
+                <div class="flex flex-row md:flex-col lg:flex-row lg:items-center gap-x-4 gap-y-2 lg:gap-x-8 justify-between md:justify-[initial]">
+                  <span class="font-sec text-sm lg:text-xl xl:text-2xl font-sec">World name</span>
+                  <ul class="flex items-center gap-1 md:gap-4 text-xs lg:text-base xl:text-xl">
                     <li class="text-[#469AF5] font-medium">70%</li>
                     <li class="text-[#E9E9E9] font-medium">1%</li>
                     <li class="text-[#FF4B1E] font-medium">29%</li>
                   </ul>
                 </div>
-                <div class="flex items-center justify-between w-full">
-                  <span class="text-sm xl:text-base">27 Feb. 2025, 19:00 CET</span>
+                <div class="flex items-center justify-between w-full flex-wrap">
+                  <span class="text-xs lg:text-sm xl:text-base">27 Feb. 2025, 19:00 CET</span>
                   <a href="#" class="underline text-xs xl:text-sm">
                     read more
                   </a>
                 </div>
               </li>
-              <li class="flex flex-col gap-2 pr-4 pl-6 min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
+              <li class="flex flex-col gap-2 pr-4 pl-4 xl:pl-6 min-h-[68px] xl:min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
                 <span class="absolute top-0 left-0 h-full w-2 bg-[#B6D64F]"></span>
-                <div class="flex items-center gap-8">
-                  <span class="font-sec text-xl xl:text-2xl font-sec">World name</span>
-                  <ul class="flex items-center gap-4 text-sm lg:text-base xl:text-xl">
+                <div class="flex flex-row md:flex-col lg:flex-row lg:items-center gap-x-4 gap-y-2 lg:gap-x-8 justify-between md:justify-[initial]">
+                  <span class="font-sec text-sm lg:text-xl xl:text-2xl font-sec">World name</span>
+                  <ul class="flex items-center gap-1 md:gap-4 text-xs lg:text-base xl:text-xl">
                     <li class="text-[#469AF5] font-medium">70%</li>
                     <li class="text-[#E9E9E9] font-medium">1%</li>
                     <li class="text-[#FF4B1E] font-medium">29%</li>
                   </ul>
                 </div>
                 <div class="flex items-center gap-2 w-full">
-                  <div class="px-4 min-h-6 flex items-center justify-center rounded-[44px] bg-[#B6D64F] text-sm text-[#152045] font-medium">
+                  <div class="px-4 min-h-6 flex items-center justify-center rounded-[44px] bg-[#B6D64F] text-xs lg:text-sm text-[#152045] font-medium">
                     Online
                   </div>
-                  <span class="text-sm xl:text-base">16d 0h</span>
+                  <span class="text-xs lg:text-sm xl:text-base">16d 0h</span>
                 </div>
               </li>
-              <li class="flex flex-col gap-2 pr-4 pl-6 min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
+              <li class="flex flex-col gap-2 pr-4 pl-4 xl:pl-6 min-h-[68px] xl:min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
                 <span class="absolute top-0 left-0 h-full w-2 bg-[#B6D64F]"></span>
-                <div class="flex items-center gap-8">
-                  <span class="font-sec text-xl xl:text-2xl font-sec">World name</span>
-                  <ul class="flex items-center gap-4 text-sm lg:text-base xl:text-xl">
+                <div class="flex flex-row md:flex-col lg:flex-row lg:items-center gap-x-4 gap-y-2 lg:gap-x-8 justify-between md:justify-[initial]">
+                  <span class="font-sec text-sm lg:text-xl xl:text-2xl font-sec">World name</span>
+                  <ul class="flex items-center gap-1 md:gap-4 text-xs lg:text-base xl:text-xl">
                     <li class="text-[#469AF5] font-medium">70%</li>
                     <li class="text-[#E9E9E9] font-medium">1%</li>
                     <li class="text-[#FF4B1E] font-medium">29%</li>
                   </ul>
                 </div>
                 <div class="flex items-center gap-2 w-full">
-                  <div class="px-4 min-h-6 flex items-center justify-center rounded-[44px] bg-[#B6D64F] text-sm text-[#152045] font-medium">
+                  <div class="px-4 min-h-6 flex items-center justify-center rounded-[44px] bg-[#B6D64F] text-xs lg:text-sm text-[#152045] font-medium">
                     Online
                   </div>
-                  <span class="text-sm xl:text-base">16d 0h</span>
+                  <span class="text-xs lg:text-sm xl:text-base">16d 0h</span>
                 </div>
               </li>
-              <li class="flex flex-col gap-2 pr-4 pl-6 min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
+              <li class="flex flex-col gap-2 pr-4 pl-4 xl:pl-6 min-h-[68px] xl:min-h-[90px] justify-center relative bg-[linear-gradient(to_right,rgba(255,255,255,.26)_0%,rgba(255,255,255,0.01)_100%)] backdrop-blur-[12px]">
                 <span class="absolute top-0 left-0 h-full w-2 bg-[#B6D64F]"></span>
-                <div class="flex items-center gap-8">
-                  <span class="font-sec text-xl xl:text-2xl font-sec">World name</span>
-                  <ul class="flex items-center gap-4 text-sm lg:text-base xl:text-xl">
+                <div class="flex flex-row md:flex-col lg:flex-row lg:items-center gap-x-4 gap-y-2 lg:gap-x-8 justify-between md:justify-[initial]">
+                  <span class="font-sec text-sm lg:text-xl xl:text-2xl font-sec">World name</span>
+                  <ul class="flex items-center gap-1 md:gap-4 text-xs lg:text-base xl:text-xl">
                     <li class="text-[#469AF5] font-medium">70%</li>
                     <li class="text-[#E9E9E9] font-medium">1%</li>
                     <li class="text-[#FF4B1E] font-medium">29%</li>
                   </ul>
                 </div>
                 <div class="flex items-center gap-2 w-full">
-                  <div class="px-4 min-h-6 flex items-center justify-center rounded-[44px] bg-[#B6D64F] text-sm text-[#152045] font-medium">
+                  <div class="px-4 min-h-6 flex items-center justify-center rounded-[44px] bg-[#B6D64F] text-xs lg:text-sm text-[#152045] font-medium">
                     Online
                   </div>
-                  <span class="text-sm xl:text-base">16d 0h</span>
+                  <span class="text-xs lg:text-sm xl:text-base">16d 0h</span>
                 </div>
               </li>
             </ul>
@@ -211,14 +211,14 @@
       <img class="mix-blend-soft-light pointer-events-none z-[-1] absolute top-0 left-0 w-full h-full" src="assets/mission/mission_bg.png" alt="bg">
       <div class="pt-[72px] pb-32">
         <div class="container">
-          <div class="grid grid-cols-[0.45fr_0.55fr] items-center gap-[clamp(72px,8.25vw,132px)] mb-[clamp(64px,6.25vw,100px)]">
+          <div class="flex flex-col-reverse gap-y-6 lg:grid grid-cols-[0.45fr_0.55fr] items-center gap-[clamp(72px,8.25vw,132px)] mb-[clamp(64px,6.25vw,100px)]">
             <div class="flex flex-col gap-[clamp(24px,2.5vw,40px)]">
               <h2 class="text-2xl font-bold xl:text-3xl font-sec">Our mission</h2>
               <p>
                 Now that I’ve been able to spend more time in Wrath of the Lich King Classic and raiding is in full swing, I have started to remember everything I enjoyed about Wrath the first time around. The second time around still feels more buggy than the first time, but I am enjoying the experience.
               </p>
             </div>
-            <div class="grid grid-cols-2 gap-6 items-center">
+            <div class="grid grid-cols-2 gap-6 items-center w-full">
               <div class="h-[200px] relative w-full">
                 <img class="absolute top-0 left-0 w-full h-full" src="assets/mission/missionImage_1.png" alt="image">
               </div>
@@ -266,13 +266,13 @@
           </div>
         </div>
       </div>
-      <footer class="bg-transparent border-t border-solid py-11 border-[#E9E9E9]/15">
-        <div class="container flex items-start gap-4 justify-between">
-          <div class="flex flex-col gap-10 max-w-[294px]">
-            <img class="max-w-[214px]" src="assets/logo.svg" alt="logo">
+      <footer class="border-t border-solid py-11 border-[#E9E9E9]/15">
+        <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+          <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+            <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
             <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
           </div>
-          <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+          <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
             <span class="font-sec opacity-50 text-xl">Navigation</span>
             <a href="#">
               Navigation
@@ -287,7 +287,7 @@
               News
             </a>
           </div>
-          <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+          <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
             <span class="font-sec opacity-50 text-xl">Navigation</span>
             <a href="#">
               Navigation
@@ -302,7 +302,7 @@
               News
             </a>
           </div>
-          <div class="flex flex-col gap-6">
+          <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
             <span class="font-sec opacity-50 text-xl">Support</span>
             <ul class="flex items-center gap-5">
               <a href="#" target="_blank" class="w-6 h-6">
@@ -316,7 +316,7 @@
               </a>
             </ul>
           </div>
-          <div class="flex flex-col gap-6">
+          <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
             <span class="font-sec opacity-50 text-xl">Subscribe</span>
             <ul class="flex items-center gap-5">
               <a href="#" target="_blank" class="w-6 h-6">

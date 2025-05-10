@@ -12,8 +12,8 @@
 <body class="min-h-screen font-[Roboto] text-[#E9E9E9] bg-[#152045] flex flex-col bg-[url('assets/guide/guide_bg.jpg')] bg-cover bg-fixed bg-no-repeat relative after:absolute guide-gradient after:top-0 after:left-0 after:w-full after:h-full after:pointer-events-none bg-blend-luminosity bg-center">
   <header class="absolute top-0 left-0 w-full z-10">
     <div class="container flex items-center justify-between min-h-[60px] overflow-visible">
-<img src="assets/logo.svg" />
-      <nav class="flex items-center gap-10 font-sec">
+        <img src="assets/logo.svg" />
+        <nav class="flex items-center gap-10 font-sec fixed xl:static top-0 left-0 w-full h-full xl:w-fit hidden">
         <li>
           <a href="#" class="text-xl">
             How to begin?
@@ -73,30 +73,30 @@
   <main class="flex-1">
     <section class="pt-[100px] pb-40">
       <div class="container z-[1]">
-        <h1 class="font-sec text-5xl font-bold mb-[clamp(32px,3vw,48px)]">
+        <h1 class="font-sec text-3xl lg:text-5xl font-bold mb-[clamp(32px,3vw,48px)]">
           How to begin?
         </h1>
-        <div class="flex justify-between items-center pl-[clamp(44px,4.375vw,70px)] pr-[clamp(28px,2.75vw,44px)] relative mb-[54px] bg-[url('assets/guide/block_bg.jpg')] bg-cover bg-center bg-no-repeat pt-[26px] pb-10 before:absolute before:z-[1] before:pointer-events-none before:left-0 before:bg-[linear-gradient(to_bottom,rgba(70,154,245,0)_0%,#469AF5_100%)] before:h-[60px] before:w-full before:bottom-0">
-          <div class="max-w-[34%]">
-            <h2 class="font-sec text-3xl xl:text-4xl font-bold mb-5">
+        <div class="flex flex-col md:flex-row justify-between gap-y-6 md:items-center pl-4 md:pl-6 xl:pl-[clamp(44px,4.375vw,70px)] pr-4 md:pr-[clamp(28px,2.75vw,44px)] relative mb-[54px] bg-blend-luminosity bg-[url('assets/guide/block_bg.jpg')] bg-cover bg-center bg-no-repeat pt-[26px] pb-8 lg:pb-10 before:absolute before:z-[1] before:pointer-events-none before:left-0 before:bg-[linear-gradient(to_bottom,rgba(70,154,245,0)_0%,#469AF5_100%)] before:h-10 lg:before:h-[60px] before:w-full before:bottom-0">
+          <div class="max-w-[400px] lg:max-w-[34%]">
+            <h2 class="font-sec text-2xl lg:text-3xl xl:text-4xl font-bold mb-2 lg:mb-5">
               Your Journey Begins Here
             </h2>
-            <p class="text-[#152045] !leading-[110%] text-base lg:text-lg xl:text-xl">
+            <p class="md:text-[#152045] !leading-[110%] text-base lg:text-lg xl:text-xl">
               Get the Warcrown Launcher to connect instantly, stay updated, and start playing with no hassle.
             </p>
           </div>
           <img
-            class="absolute bottom-0 left-[38%] pointer-events-none max-w-[34.7%]" 
+            class="absolute bottom-0 left-[38%] pointer-events-none max-w-[34.7%] hidden lg:block" 
             src="assets/guide/guide_character.png" 
             alt="character"
           >
-          <a href="#" class="px-6 py-4 flex justify-center flex-col font-medium text-[#152045] bg-[#B6D64F]">
-            <span class="text-xl xl:text-2xl block leading-[120%]">Download</span>
-            <span class="text-sm">Fast. Safe. Adventure-ready.</span>
+          <a href="#" class="px-6 py-2 lg:py-4 flex justify-center flex-col font-medium text-[#152045] bg-[#B6D64F] w-fit">
+            <span class="text-lg lg:text-xl xl:text-2xl block leading-[120%]">Download</span>
+            <span class="text-xs lg:text-sm">Fast. Safe. Adventure-ready.</span>
           </a>
         </div>
-        <ul class="grid grid-cols-4 gap-12">
-          <li class="flex flex-col gap-6 lg:gap-8">
+        <ul class="md:grid flex flex-col md:grid-cols-2 xl:grid-cols-4 gap-12">
+          <li class="flex flex-col gap-3 xl:gap-6 lg:gap-8">
             <div class="flex items-end gap-4">
               <span class="font-sec text-6xl font-medium">1</span>
               <span class="font-sec text-[19px] block leading-[200%]">
@@ -110,7 +110,7 @@
               Create account
             </a>
           </li>
-          <li class="flex flex-col gap-6 lg:gap-8">
+          <li class="flex flex-col gap-3 xl:gap-6 lg:gap-8">
             <div class="flex items-end gap-4">
               <span class="font-sec text-6xl font-medium">2</span>
               <span class="font-sec text-[19px] block leading-[200%]">
@@ -124,7 +124,7 @@
               Download Launcher
             </a>
           </li>
-          <li class="flex flex-col gap-6 lg:gap-8">
+          <li class="flex flex-col gap-3 xl:gap-6 lg:gap-8">
             <div class="flex items-end gap-4">
               <span class="font-sec text-6xl font-medium">3</span>
               <span class="font-sec text-[19px] block leading-[200%]">
@@ -135,7 +135,7 @@
               Launch the Warcrown Launcher and let it download and install the game client automatically. No need for manual patching!
             </p>
           </li>
-          <li class="flex flex-col gap-6 lg:gap-8">
+          <li class="flex flex-col gap-3 xl:gap-6 lg:gap-8">
             <div class="flex items-end gap-4">
               <span class="font-sec text-6xl font-medium">4</span>
               <span class="font-sec text-[19px] block leading-[200%]">
@@ -150,13 +150,13 @@
       </div>
     </section>
   </main>
-  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15 relative z-[5]">
-    <div class="container flex items-start gap-4 justify-between">
-      <div class="flex flex-col gap-10 max-w-[294px]">
-        <img src="" alt="">
+  <footer class="bg-[#152045] border-t border-solid py-11 border-[#E9E9E9]/15">
+    <div class="container grid-cols-6 grid items-start gap-y-8 gap-4 justify-between lg:flex">
+      <div class="flex flex-col gap-5 xl:gap-10 max-w-[340px] lg:max-w-[294px] col-span-6">
+        <img src="assets/logo.svg" class="max-w-[140px] xl:max-w-full" alt="logo">
         <span class="text-[clamp(14px,1vw,16px)]">The name  "Warcraft" was proposed by Blizzard developer Sam Didier, and was chosen because "it sounded super cool".</span>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -171,7 +171,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6 text-[clamp(14px,1vw,16px)]">
+      <div class="flex flex-col gap-3 xl:gap-6 text-[clamp(14px,1vw,16px)] col-span-3">
         <span class="font-sec opacity-50 text-xl">Navigation</span>
         <a href="#">
           Navigation
@@ -186,7 +186,7 @@
           News
         </a>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Support</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
@@ -200,7 +200,7 @@
           </a>
         </ul>
       </div>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-3 xl:gap-6 col-span-3">
         <span class="font-sec opacity-50 text-xl">Subscribe</span>
         <ul class="flex items-center gap-5">
           <a href="#" target="_blank" class="w-6 h-6">
